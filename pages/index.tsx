@@ -23,6 +23,7 @@ export default function Home() {
           <Image
             alt="Maison 1870"
             className="w-full rounded-lg mb-section"
+            priority
             src="/photos/01.jpg"
             width={800}
             height={600}
