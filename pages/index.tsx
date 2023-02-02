@@ -18,8 +18,8 @@ export default function Home() {
 
       <main className="my-section text-center">
         <Wrap width={840}>
-          <h1 className="text-emerald-500 font-sans text-lg uppercase mb-2">
-            Holiday apartment in sarlat-la-canéda
+          <h1 className="text-emerald-500 font-sans text-sm 2xs:text-base sm:text-lg uppercase mb-2">
+            Holiday apartment in sarlat&#8209;la&#8209;canéda
           </h1>
 
           <h2 className="h1">
