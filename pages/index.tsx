@@ -16,9 +16,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="my-section">
-        <Wrap>
-          <h1>Maison 1870 &middot; Holiday apartment in Sarlat-la-Canéda</h1>
+      <main className="my-section text-center">
+        <Wrap width={840}>
+          <h1 className="text-emerald-500 font-sans text-lg uppercase mb-2">
+            Holiday apartment in sarlat-la-canéda
+          </h1>
+
+          <h2 className="h1">
+            Private studio apartment in a 150 year old villa
+          </h2>
+
           <p>
             Welcome to the cozy studio apartment, below our 150-year old home in
             Sarlat-la-Canéda. We are a Dutch family who live here since the
