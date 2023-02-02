@@ -24,7 +24,8 @@
   .h4,
   .h5,
   .h6 {
-    @apply font-semibold;
+    @apply !leading-tight md:!leading-tight;
+    @apply font-heading font-bold;
     @apply mb-4 last:mb-0;
     @apply text-2xl md:text-3xl;
   }

@@ -1,7 +1,7 @@
-/** @type {import('tailwindcss').Config} */
-
 const theme = require("tailwindcss/defaultTheme");
+const { fontFamily } = require("tailwindcss/defaultTheme");
 
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -9,6 +9,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        heading: ["var(--playfair-display)", ...fontFamily.serif],
+      },
       spacing: {
         18: "4.5rem",
       },
