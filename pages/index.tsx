@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import Link from "next/link";
 import Wrap from "@/components/Wrap";
 
@@ -18,7 +19,16 @@ export default function Home() {
       </Head>
 
       <main className="my-section text-center">
-        <Wrap width={840}>
+        <Wrap>
+          <Image
+            alt="Maison 1870"
+            className="w-full rounded-lg mb-section"
+            src="/photos/01.jpg"
+            width={800}
+            height={600}
+            sizes="(max-width: 880px) 100vw, 800px"
+          />
+
           <h1 className="text-emerald-500 font-sans text-sm 2xs:text-base sm:text-lg uppercase mb-2">
             Holiday apartment in sarlat&#8209;la&#8209;canéda
           </h1>
@@ -86,6 +96,40 @@ export default function Home() {
           </Link>
         </Wrap>
       </main>
+
+      <section className="my-section">
+        <Wrap>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-1">
+            {[
+              "02",
+              "03",
+              "04",
+              "05",
+              "06",
+              "07",
+              "08",
+              "10",
+              "11",
+              "12",
+              "13",
+              "14",
+              "15",
+              "16",
+              "17",
+              "18",
+            ].map((number) => (
+              <Image
+                alt="Maison 1870"
+                className="w-full rounded-sm object-cover aspect-square"
+                height={200}
+                key={number}
+                src={`/photos/${number}.jpg`}
+                width={200}
+              />
+            ))}
+          </div>
+        </Wrap>
+      </section>
     </>
   );
 }
