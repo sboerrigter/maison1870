@@ -1,5 +1,15 @@
-export default function Wrap({ children }: { children: React.ReactNode }) {
+import classNames from "classnames";
+
+export default function Wrap({
+  children,
+  className,
+}: {
+  children: React.ReactNode;
+  className?: string;
+}) {
   return (
-    <div className="mx-auto w-full max-w-[880px] px-5 sm:px-10">{children}</div>
+    <div className={classNames("mx-auto w-full px-5 md:px-10", className)}>
+      {children}
+    </div>
   );
 }

@@ -12,6 +12,9 @@ module.exports = {
       fontFamily: {
         heading: ["var(--playfair-display)", ...fontFamily.serif],
       },
+      fontSize: {
+        "2xs": "0.625rem",
+      },
       lineHeight: {
         1.75: "1.75",
       },

@@ -1,5 +1,6 @@
 import Analytics from "@/components/Analytics";
 import Head from "next/head";
+import Hero from "@/components/Hero";
 import Image from "next/image";
 import Link from "next/link";
 import Wrap from "@/components/Wrap";
@@ -30,20 +31,12 @@ export default function Home() {
         <Analytics />
       </Head>
 
-      <main className="my-section text-center">
-        <Wrap>
-          <Image
-            alt="Maison 1870"
-            className="w-full rounded-lg mb-section"
-            priority
-            src="/photos/01.jpg"
-            width={800}
-            height={600}
-            sizes="(max-width: 880px) 100vw, 800px"
-          />
+      <Hero />
 
-          <h1 className="text-emerald-500 font-sans text-sm 2xs:text-base sm:text-lg uppercase mb-2">
-            Holiday apartment in sarlat&#8209;la&#8209;canéda
+      <main className="my-section text-center">
+        <Wrap className="max-w-[880px]">
+          <h1 className="text-emerald-500 font-sans text-sm 2xs:text-base md:text-lg uppercase tracking-wider mb-2">
+            Holiday apartment in Sarlat-la-Canéda
           </h1>
 
           <h2 className="h1">
@@ -111,9 +104,20 @@ export default function Home() {
       </main>
 
       <section className="my-section">
-        <Wrap>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-1">
+        <Wrap className="max-w-[880px]">
+          <Image
+            alt="Maison 1870"
+            className="w-full rounded-xl mb-5"
+            priority
+            src="/photos/01.jpg"
+            width={800}
+            height={600}
+            sizes="(max-width: 880px) 100vw, 800px"
+          />
+
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
             {[
+              "01",
               "02",
               "03",
               "04",
@@ -130,14 +134,15 @@ export default function Home() {
               "16",
               "17",
               "18",
+              "19",
             ].map((number) => (
               <Image
                 alt="Maison 1870"
-                className="w-full rounded-sm object-cover aspect-square"
-                height={200}
+                className="w-full rounded-xl object-cover aspect-square"
+                height={185}
                 key={number}
                 src={`/photos/${number}.jpg`}
-                width={200}
+                width={185}
               />
             ))}
           </div>
