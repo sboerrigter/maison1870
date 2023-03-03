@@ -29,7 +29,7 @@ export default function Gallery() {
         />
       </Wrap>
 
-      <div className="flex flex-nowrap overflow-x-auto gap-5 p-5 pb-20 -mb-20">
+      <div className="flex flex-nowrap overflow-x-auto gap-5 p-5 md:px-10 pb-10 -mb-10">
         {images.map((number) => (
           <Image
             alt="Maison 1870"
@@ -38,7 +38,7 @@ export default function Gallery() {
               transition-all duration-100 ease-out
               ${
                 current == number
-                  ? "scale-105 shadow-xl shadow-black/20"
+                  ? "scale-110 shadow-lg shadow-black/20"
                   : "shadow-sm shadow-transparent"
               }
             `}
