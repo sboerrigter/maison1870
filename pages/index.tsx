@@ -1,5 +1,6 @@
 import Analytics from "@/components/Analytics";
 import Button from "@/components/Button";
+import Footer from "@/components/Footer";
 import Head from "next/head";
 import Hero from "@/components/Hero";
 import Image from "next/image";
@@ -10,11 +11,11 @@ export default function Home() {
     <>
       <Head>
         <title>
-          Maison 1870 &middot; Holiday apartment in Sarlat-la-Canéda
+          Maison 1870 &middot; Holiday apartment in Sarlat&#8209;la&#8209;Canéda
         </title>
         <meta
           name="description"
-          content="Private holiday apartment in a 150 year old villa in apartment in Sarlat-la-Canéda, Dordogne, France."
+          content="Private holiday apartment in a 150 year old villa in apartment in Sarlat&#8209;la&#8209;Canéda, Dordogne, France."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -34,9 +35,9 @@ export default function Home() {
       <Hero />
 
       <main className="my-section text-center">
-        <Wrap className="max-w-[880px]">
+        <Wrap className="content max-w-[880px]">
           <h1 className="text-emerald-500 font-sans text-sm 2xs:text-base md:text-lg uppercase tracking-wider mb-2">
-            Holiday apartment in Sarlat-la-Canéda
+            Holiday apartment in Sarlat&#8209;la&#8209;Canéda
           </h1>
 
           <h2 className="h1">
@@ -45,9 +46,9 @@ export default function Home() {
 
           <p>
             Welcome to the cozy studio apartment, below our 150-year old home in
-            Sarlat-la-Canéda. We are a Dutch family who live here since the
-            summer of 2022 and we have fully renovated and refurnished the
-            apartment.
+            Sarlat&#8209;la&#8209;Canéda. We are a Dutch family who live here
+            since the summer of 2022 and we have fully renovated and refurnished
+            the apartment.
           </p>
 
           <p>
@@ -63,11 +64,12 @@ export default function Home() {
           <h2>In the area</h2>
 
           <p>
-            The studio is located in a green and quiet area of Sarlat-la-Canéda.
-            The medieval city center with lots of restaurants, shops and
-            historic sights is at just 5 minutes driving or 15 minutes walking
-            distance. And you can visit all main sights and attractions in the
-            Perigord noir within a 30 minute drive from the apartment.
+            The studio is located in a green and quiet area of
+            Sarlat&#8209;la&#8209;Canéda. The medieval city center with lots of
+            restaurants, shops and historic sights is at just 5 minutes driving
+            or 15 minutes walking distance. And you can visit all main sights
+            and attractions in the Perigord noir within a 30 minute drive from
+            the apartment.
           </p>
 
           <Button />
@@ -79,7 +81,6 @@ export default function Home() {
           <Image
             alt="Maison 1870"
             className="w-full rounded-xl mb-5"
-            priority
             src="/photos/01.jpg"
             width={800}
             height={600}
@@ -119,6 +120,8 @@ export default function Home() {
           </div>
         </Wrap>
       </section>
+
+      <Footer />
     </>
   );
 }

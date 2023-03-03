@@ -5,9 +5,9 @@ import Wrap from "@/components/Wrap";
 
 export default function Hero() {
   return (
-    <div className="bg-gray-600 w-full aspect-[4/3] min-h-[360px] max-h-[75vh] relative">
+    <header className="bg-gray-600 w-full aspect-[4/3] min-h-[360px] max-h-[75vh] relative">
       <Image
-        alt="Holiday apartment in Sarlat-la-Canéda"
+        alt="Holiday apartment in Sarlat&#8209;la&#8209;Canéda"
         className="w-full h-full absolute left-0 top-0 object-cover z-0"
         priority
         src="/photos/19.jpg"
@@ -22,6 +22,6 @@ export default function Hero() {
         <Logo />
         <Button className="hidden sm:flex" blackShadow />
       </Wrap>
-    </div>
+    </header>
   );
 }

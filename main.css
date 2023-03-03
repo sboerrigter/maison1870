@@ -46,11 +46,14 @@
   p,
   blockquote {
     @apply text-base md:text-lg !leading-1.75;
-    @apply mb-8 last:mb-0;
   }
 
   a {
     @apply cursor-pointer transition-colors duration-200;
+  }
+
+  .content p {
+    @apply mb-8 last:mb-0;
   }
 }
 

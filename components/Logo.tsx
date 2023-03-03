@@ -63,7 +63,7 @@ export default function Logo() {
           Maison 1870
         </p>
         <p className="text-2xs 2xs:text-xs md:text-sm font-semibold uppercase tracking-wider !leading-none">
-          Sarlat-la-Canéda
+          Sarlat&#8209;la&#8209;Canéda
         </p>
       </div>
     </div>
