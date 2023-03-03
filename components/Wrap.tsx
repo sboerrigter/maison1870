@@ -1,5 +1,3 @@
-import classNames from "classnames";
-
 export default function Wrap({
   children,
   className,
@@ -8,7 +6,7 @@ export default function Wrap({
   className?: string;
 }) {
   return (
-    <div className={classNames("mx-auto w-full px-5 md:px-10", className)}>
+    <div className={`mx-auto w-full px-5 md:px-10 ${className}`}>
       {children}
     </div>
   );
