@@ -17,7 +17,7 @@ export default function Hero() {
 
       <div className="w-full h-full absolute left-0 top-0 bg-gradient-to-b from-black/25 to-transparent" />
 
-      <Wrap className="max-w-[1280px] relative flex justify-between pt-5 md:pt-10">
+      <Wrap className="max-w-[1280px] relative flex justify-between pt-6 2xs:pt-8 md:pt-10">
         <Logo />
       </Wrap>
     </div>

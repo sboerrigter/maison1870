@@ -59,10 +59,10 @@ export default function Logo() {
       </svg>
 
       <div>
-        <p className="font-heading font-bold text-xl 2xs:text-2xl md:text-4xl mb-0 !leading-none">
+        <p className="font-heading font-bold text-xl 2xs:text-2xl md:text-4xl !leading-none mb-1 2xs:mb-1.5 md:mb-2">
           Maison 1870
         </p>
-        <p className="text-2xs 2xs:text-xs md:text-sm font-semibold uppercase tracking-wider !leading-none mt-1 2xs:mt-2 md:mt-3">
+        <p className="text-2xs 2xs:text-xs md:text-sm font-semibold uppercase tracking-wider !leading-none">
           Sarlat-la-Canéda
         </p>
       </div>
