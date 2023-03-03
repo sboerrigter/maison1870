@@ -30,7 +30,7 @@ export default function Footer() {
 
             <a
               href="tel:+33632004114"
-              className="py-2 font-bold underline underline-offset-8 text-emerald-500 hover:text-emerald-300 transition-colors duration-200"
+              className="py-2 font-bold underline underline-offset-8 text-emerald-400 hover:text-emerald-300 transition-colors duration-200"
             >
               +33 6 32 00 41 14
             </a>
@@ -54,7 +54,7 @@ export default function Footer() {
             </svg>
             <a
               href="mailto:bonjour@maison1870.com"
-              className="py-2 pr-0 font-bold underline underline-offset-8 text-emerald-500 hover:text-emerald-300 transition-colors duration-200"
+              className="py-2 pr-0 font-bold underline underline-offset-8 text-emerald-400 hover:text-emerald-300 transition-colors duration-200"
             >
               bonjour@maison1870.com
             </a>

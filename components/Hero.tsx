@@ -18,7 +18,7 @@ export default function Hero() {
 
       <div className="w-full h-full absolute left-0 top-0 bg-gradient-to-b from-black/40 to-transparent" />
 
-      <Wrap className="max-w-[1280px] relative flex justify-between items-center pt-6 2xs:pt-8 md:pt-10">
+      <Wrap className="max-w-[1280px] relative flex justify-between items-end pt-6 2xs:pt-8 md:pt-10">
         <Logo />
         <Button className="hidden sm:flex" blackShadow />
       </Wrap>

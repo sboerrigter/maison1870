@@ -10,8 +10,8 @@ export default function Button({
   return (
     <Link
       className={`
-        bg-emerald-400 hover:bg-emerald-500 text-white
-        font-semibold
+        bg-emerald-400 hover:bg-emerald-500 !text-white
+        font-semibold !no-underline
         inline-flex items-center justify-center
         px-8 py-3 rounded-full
         ${

@@ -55,6 +55,10 @@
   .content p {
     @apply mb-8 last:mb-0;
   }
+
+  .content a {
+    @apply text-emerald-400 hover:text-emerald-500 font-semibold underline underline-offset-4;
+  }
 }
 
 @layer utilities {

@@ -33,7 +33,7 @@ export default function Home() {
       </Head>
       <Hero />
       <Content>
-        <h1 className="text-emerald-500 font-sans text-sm 2xs:text-base md:text-lg uppercase tracking-wider mb-2">
+        <h1 className="text-emerald-400 font-sans text-sm 2xs:text-base md:text-lg uppercase tracking-wider mb-2">
           Holiday apartment in Sarlat&#8209;la&#8209;Canéda
         </h1>
         <h2 className="h1">Private studio apartment in a 150 year old villa</h2>
@@ -56,17 +56,32 @@ export default function Home() {
       </Content>
       <Gallery />
       <Content>
-        <h2>In the area</h2>
+        <h2>In the heart of the Perigord Noir</h2>
         <p>
           The studio is located in a green and quiet area of
           Sarlat&#8209;la&#8209;Canéda. The medieval city center with lots of
           restaurants, shops and historic sights is at just 5 minutes driving or
-          15 minutes walking distance. And you can visit all main sights and
+          15 minutes walking distance. You can visit all main sights and
           attractions in the Perigord noir within a 30 minute drive from the
-          apartment.
+          apartment. We have a lot of recommendations for great places to visit!
+        </p>
+      </Content>
+
+      <Content>
+        <h2>
+          Your hosts Hannah <span className="font-serif">&amp;</span> Sjoerd
+        </h2>
+        <p>
+          We are Sjoerd and Hannah, a Dutch couple with two children. We moved
+          to France in the summer of 2022 to work remotely and to renovate our
+          19th century house. We love welcome guests who want to explore
+          beautiful perigord noir region. Don&apos;t hesitate to{" "}
+          <a href="mailto:bonjour@maison1870.com">contact us</a> if you have any
+          questions!
         </p>
         <Button />
       </Content>
+
       <Footer />
     </>
   );
