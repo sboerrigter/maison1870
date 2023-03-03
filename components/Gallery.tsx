@@ -48,6 +48,7 @@ export default function Gallery() {
         </div>
 
         <button
+          aria-label="previous"
           className="
             w-12 h-12 rounded-full shadow-md center pr-1
             bg-white text-gray-800
@@ -75,6 +76,7 @@ export default function Gallery() {
         </button>
 
         <button
+          aria-label="next"
           className="
             w-12 h-12 rounded-full shadow-md center pl-1
             bg-white text-gray-800
