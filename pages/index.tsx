@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import Gallery from "@/components/Gallery";
 import Head from "next/head";
 import Hero from "@/components/Hero";
+import Map from "@/components/Map";
 
 export default function Home() {
   return (
@@ -65,11 +66,13 @@ export default function Home() {
           attractions in the Perigord noir within a 30 minute drive from the
           apartment. We have a lot of recommendations for great places to visit!
         </p>
+        <Map />
       </Content>
 
       <Content>
         <h2>
-          Your hosts Hannah <span className="font-serif">&amp;</span> Sjoerd
+          Your hosts Hannah&nbsp;<span className="font-serif">&amp;</span>
+          &nbsp;Sjoerd
         </h2>
         <p>
           We are Sjoerd and Hannah, a Dutch couple with two children. We moved
