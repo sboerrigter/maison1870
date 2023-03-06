@@ -16,7 +16,7 @@ export default function Home() {
         </title>
         <meta
           name="description"
-          content="Private holiday apartment in a 150 year old villa in apartment in Sarlat&#8209;la&#8209;Canéda, Dordogne, France."
+          content="Private studio apartment in a 150 year old villa in Sarlat&#8209;la&#8209;Canéda, Dordogne, France."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -39,19 +39,21 @@ export default function Home() {
         </h1>
         <h2 className="h1">Private studio apartment in a 150 year old villa</h2>
         <p>
-          Welcome to the cozy studio apartment, below our 150-year old home in
-          Sarlat&#8209;la&#8209;Canéda. We are a Dutch family who live here
-          since the summer of 2022 and we have fully renovated and refurnished
-          the apartment.
+          Welcome to Maison 1870, a 150 year old villa in the green and quiet
+          outskirts of Sarlat&#8209;la&#8209;Canéda. We are a Dutch family who
+          live here since the summer of 2022 and we rent out a cute studio
+          appartment below our home. The appartment has been fully renovated and
+          refurnished. We are currently renovating the rest of our home and
+          building a second holiday apartment.
         </p>
         <p>
-          The studio has a bright living-room with a sofa-bed and a well
-          equipped kitchen. The connected bedroom has a queen size boxspring bed
-          with a comfortable matras. There is a bathroom with rain shower and a
-          separate toilet. The apartment has a private entrance with outdoor
-          seating area in our large garden with panoramic views over the city.
-          You can park your car in one of the parking spaces in the front
-          garden, or right in front of your apartment.
+          The studio apartment has a bright living-room with a sofa-bed and a
+          well equipped kitchen. The connected bedroom has a queen size
+          boxspring bed with a comfortable matras. There is a bathroom with rain
+          shower and a separate toilet. The apartment has a private entrance
+          with outdoor seating area in our large garden with panoramic views
+          over the city. You can park your car in one of the parking spaces in
+          the front garden, or right in front of your apartment.
         </p>
         <Button />
       </Content>
@@ -60,11 +62,13 @@ export default function Home() {
         <h2>In the heart of the Perigord Noir</h2>
         <p>
           The studio is located in a green and quiet area of
-          Sarlat&#8209;la&#8209;Canéda. The medieval city center with lots of
-          restaurants, shops and historic sights is at just 5 minutes driving or
-          15 minutes walking distance. You can visit all main sights and
-          attractions in the Perigord noir within a 30 minute drive from the
-          apartment. We have a lot of recommendations for great places to visit!
+          Sarlat&#8209;la&#8209;Canéda. The medieval city center, with lots of
+          restaurants, shops and historic sights, is at just 5 minutes driving
+          or 15 minutes walking distance from the apartment. The Dordogne river
+          is at just 15 minutes driving distance and you can visit all main
+          sights and attractions in the Perigord Noir within a 30 minute drive
+          from the apartment. We have a lot of recommendations for great places
+          to visit!
         </p>
         <Map />
       </Content>
@@ -75,10 +79,12 @@ export default function Home() {
           &nbsp;Sjoerd
         </h2>
         <p>
-          We are Sjoerd and Hannah, a Dutch couple with two children. We moved
+          We are Hannah and Sjoerd, a Dutch couple with two children. We moved
           to France in the summer of 2022 to work remotely and to renovate our
-          19th century house. We love welcome guests who want to explore
-          beautiful perigord noir region. Don&apos;t hesitate to{" "}
+          19th century house. We love to welcome guests who want to explore
+          beautiful Dordogne and Perigord Noir region. You can check the
+          availability and book our holiday apartment with the button below.
+          Don&apos;t hesitate to{" "}
           <a href="mailto:bonjour@maison1870.com">contact us</a> if you have any
           questions!
         </p>
