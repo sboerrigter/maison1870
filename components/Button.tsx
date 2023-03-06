@@ -21,7 +21,7 @@ export default function Button({
         }
         ${className}
       `}
-      href="https://www.airbnb.com/rooms/781840949977429677"
+      href="https://www.gites.com/en/for-rent/nouvelle-aquitaine/dordogne/sarlat/prive-studio-in-150-jaar-oude-villa-20736"
       target="_blank"
       rel="nofollow"
     >
