@@ -10,7 +10,7 @@ export default function Hero() {
         alt="Holiday apartment in Sarlat&#8209;la&#8209;Canéda"
         className="w-full h-full absolute left-0 top-0 object-cover z-0"
         priority
-        src="/photos/19.jpg"
+        src="/photos/18.jpg"
         width={2016}
         height={1512}
         sizes="100vw"

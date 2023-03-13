@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export default function Gallery() {
   const [current, setCurrent] = useState(1);
-  const images = [...Array(19).keys()].map((number) => {
+  const images = [...Array(18).keys()].map((number) => {
     return number + 1;
   });
 
