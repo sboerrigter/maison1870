@@ -33,7 +33,7 @@
 
   h1,
   .h1 {
-    @apply text-[30px] xs:text-[36px] xs:text-[48px] md:text-[64px];
+    @apply text-[30px] 2xs:text-[36px] xs:text-[48px] md:text-[64px];
     @apply mb-8 md:mb-12 last:mb-0;
   }
 
