@@ -2,24 +2,24 @@ import Wrap from "@/components/Wrap";
 
 export default function Amenities() {
   const amenities = [
-    "🌐 High-speed WiFi access",
-    "🖥 TV with chromecast",
-    "🍳 Kitchen with cooker &amp; fridge",
-    "🍽 Kitchen utensils &amp; tableware",
-    "☕️ Nespresso coffee machine",
-    "🍗 Weber barbeque (on request)",
-    "🛏 Queen size boxspring bed",
-    "👶 Baby bed (on request)",
-    "🧖‍♀️ Clean bed sheets &amp; towels",
-    "🚿 Rain shower",
-    "🧴 Shower gel &amp; shampoo",
-    "💨 Hair dryer",
-    "🚙 Free parking",
-    "🌳 Shared garden with epic views",
-    "🎲 Board games &amp; pétanque",
-    "🚨 Smoke &amp; CO alarm",
-    "🩹 First aid kid &amp; fire extinguisher",
-    "🤙 Miss anything? Just <a href='mailto:bonjour@maison1870.com'>let us know</a>!",
+    "High-speed WiFi access",
+    "TV with chromecast",
+    "Kitchen with cooker &amp; fridge",
+    "Kitchen utensils &amp; tableware",
+    "Nespresso coffee machine",
+    "Weber barbeque (on request)",
+    "Queen size boxspring bed",
+    "Baby bed (on request)",
+    "Clean bed sheets &amp; towels",
+    "Rain shower",
+    "Shower gel &amp; shampoo",
+    "Hair dryer",
+    "Free parking",
+    "Shared garden with epic views",
+    "Board games &amp; pétanque",
+    "Smoke- &amp; CO alarm",
+    "First aid kid &amp; fire extinguisher",
+    "Miss anything? Just <a href='mailto:bonjour@maison1870.com'>let us know</a>!",
   ];
 
   return (
@@ -32,7 +32,7 @@ export default function Amenities() {
         <ul className="md:columns-2 lg:columns-3 gap-10 xl:gap-15">
           {amenities.map((amenity, index) => (
             <li
-              className="border-t border-b -mt-px px-2 py-4 leading-tight"
+              className="border-t border-b -mt-px p-4 leading-tight"
               key={index}
               dangerouslySetInnerHTML={{ __html: amenity }}
             />
