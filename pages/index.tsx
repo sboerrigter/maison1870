@@ -1,3 +1,4 @@
+import Amenities from "@/components/Amenities";
 import Analytics from "@/components/Analytics";
 import Button from "@/components/Button";
 import Content from "@/components/Content";
@@ -46,6 +47,9 @@ export default function Home() {
           refurnished. We are currently renovating the rest of our home and
           building a second holiday apartment.
         </p>
+      </Content>
+      <Gallery />
+      <Content>
         <p>
           The studio apartment has a bright living-room with a sofa-bed and a
           well equipped kitchen. The connected bedroom has a queen size
@@ -57,7 +61,9 @@ export default function Home() {
         </p>
         <Button />
       </Content>
-      <Gallery />
+
+      <Amenities />
+
       <Content>
         <h2>In the heart of the Perigord Noir</h2>
         <p>

@@ -9,6 +9,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        lg: "0 5px 20px 0 rgba(0, 0, 0, 0.1)",
+      },
       fontFamily: {
         heading: ["var(--playfair-display)", ...fontFamily.serif],
       },
@@ -19,6 +22,7 @@ module.exports = {
         1.75: "1.75",
       },
       spacing: {
+        15: "3.75rem",
         18: "4.5rem",
       },
     },
