@@ -15,10 +15,10 @@ export default function Amenities() {
     "Shower gel &amp; shampoo",
     "Hair dryer",
     "Free parking",
-    "Shared garden with epic views",
+    "Shared garden with great views",
     "Board games &amp; pétanque",
     "Smoke- &amp; CO alarm",
-    "First aid kid &amp; fire extinguisher",
+    "First aid kit &amp; fire extinguisher",
     "Miss anything? Just <a href='mailto:bonjour@maison1870.com'>let us know</a>!",
   ];
 
