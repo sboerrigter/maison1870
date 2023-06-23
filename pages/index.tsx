@@ -6,6 +6,8 @@ import Footer from "@/components/Footer";
 import Gallery from "@/components/Gallery";
 import Head from "next/head";
 import Hero from "@/components/Hero";
+import Hosts from "@/components/Hosts";
+import Languages from "@/components/Languages";
 import Map from "@/components/Map";
 
 export default function Home() {
@@ -35,7 +37,7 @@ export default function Home() {
       </Head>
       <Hero />
       <Content>
-        <h1 className="text-emerald-400 font-sans text-sm 2xs:text-base md:text-lg uppercase tracking-wider mb-2">
+        <h1 className="mb-2 font-sans text-sm uppercase tracking-wider text-emerald-400 2xs:text-base md:text-lg">
           Holiday apartment in Sarlat&#8209;la&#8209;Canéda
         </h1>
         <h2 className="h1">Private studio apartment in a 150 year old villa</h2>
@@ -79,20 +81,41 @@ export default function Home() {
         <Map />
       </Content>
 
+      <Hosts />
+      <Languages />
+
       <Content>
         <h2>
-          Your hosts Hannah&nbsp;<span className="font-serif">&amp;</span>
-          &nbsp;Sjoerd
+          Availabillity <span className="font-serif">&amp;</span> bookings
         </h2>
         <p>
-          We are Hannah and Sjoerd, a Dutch couple with two children. We moved
-          to France in the summer of 2022 to work remotely and to renovate our
-          19th century house. We love to welcome guests who want to explore
-          beautiful Dordogne and Perigord Noir region. You can check the
-          availability and book our holiday apartment with the button below.
-          Don&apos;t hesitate to{" "}
-          <a href="mailto:bonjour@maison1870.com">contact us</a> if you have any
-          questions!
+          You can find our holiday apartment on{" "}
+          <a
+            href="https://www.airbnb.com/rooms/781840949977429677"
+            target="_blank"
+            rel="noreferrer nofollow"
+          >
+            Airbnb
+          </a>
+          ,{" "}
+          <a
+            href="https://www.booking.com/hotel/fr/private-studio-in-150-year-old-villa.en-gb.html"
+            target="_blank"
+            rel="noreferrer nofollow"
+          >
+            Booking.com
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://www.gites.com/en/for-rent/nouvelle-aquitaine/dordogne/sarlat/prive-studio-in-150-jaar-oude-villa-20736"
+            target="_blank"
+            rel="noreferrer nofollow"
+          >
+            Gites.com
+          </a>
+          . You can see the current availability on all of those platfoms. We
+          recommend booking via Gites.com because that platform has the lowest
+          commission and is therefore the cheapest.
         </p>
         <Button />
       </Content>
