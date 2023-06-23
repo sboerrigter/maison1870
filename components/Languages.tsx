@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Wrap from "./Wrap";
 
 export default function Languages() {

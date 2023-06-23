@@ -1,4 +1,6 @@
+import Email from "./Email";
 import Image from "next/image";
+import Telephone from "./Telephone";
 import Wrap from "./Wrap";
 
 export default function Hosts() {
@@ -17,13 +19,18 @@ export default function Hosts() {
             Your hosts Hannah&nbsp;<span className="font-serif">&amp;</span>
             &nbsp;Sjoerd
           </h2>
-          <p>
+          <p className="mb-8">
             We are Hannah and Sjoerd, a Dutch couple with two children. We moved
             to France in the summer of 2022 to work remotely and to renovate our
             19th century house. We love to welcome guests who want to explore
             beautiful Dordogne and Perigord Noir region. Don&apos;t hesitate to
             contact us if you have any questions!
           </p>
+
+          <div className="center flex-col gap-x-8 gap-y-1 text-gray-800 sm:flex-row lg:flex-col lg:items-start">
+            <Telephone />
+            <Email />
+          </div>
         </div>
       </Wrap>
     </section>
