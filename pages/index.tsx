@@ -8,7 +8,7 @@ import Head from "next/head";
 import Hero from "@/components/Hero";
 import Hosts from "@/components/Hosts";
 import Languages from "@/components/Languages";
-import Map from "@/components/Map";
+import Region from "@/components/Region";
 
 export default function Home() {
   return (
@@ -63,27 +63,10 @@ export default function Home() {
         </p>
         <Button />
       </Content>
-
       <Amenities />
-
-      <Content>
-        <h2>In the heart of the Perigord Noir</h2>
-        <p>
-          The studio is located in a green and quiet area of
-          Sarlat&#8209;la&#8209;Canéda. The medieval city center, with lots of
-          restaurants, shops and historic sights, is at just 5 minutes driving
-          or 15 minutes walking distance from the apartment. The Dordogne river
-          is at just 15 minutes driving distance and you can visit all main
-          sights and attractions in the Perigord Noir within a 30 minute drive
-          from the apartment. We have a lot of recommendations for great places
-          to visit!
-        </p>
-        <Map />
-      </Content>
-
+      <Region />
       <Hosts />
       <Languages />
-
       <Content>
         <h2>
           Availabillity <span className="font-serif">&amp;</span> bookings
@@ -119,7 +102,6 @@ export default function Home() {
         </p>
         <Button />
       </Content>
-
       <Footer />
     </>
   );

@@ -1,5 +1,5 @@
-import Email from "./Email";
-import Telephone from "./Telephone";
+import Email from "@/components/Email";
+import Telephone from "@/components/Telephone";
 import Wrap from "@/components/Wrap";
 
 export default function Footer() {

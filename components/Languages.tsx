@@ -1,4 +1,4 @@
-import Wrap from "./Wrap";
+import Wrap from "@/components/Wrap";
 
 export default function Languages() {
   const languages = [

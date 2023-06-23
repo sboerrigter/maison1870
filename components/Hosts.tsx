@@ -1,7 +1,7 @@
-import Email from "./Email";
+import Email from "@/components/Email";
 import Image from "next/image";
-import Telephone from "./Telephone";
-import Wrap from "./Wrap";
+import Telephone from "@/components/Telephone";
+import Wrap from "@/components/Wrap";
 
 export default function Hosts() {
   return (

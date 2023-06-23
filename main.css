@@ -34,7 +34,7 @@
   h1,
   .h1 {
     @apply text-[30px] 2xs:text-[36px] xs:text-[48px] md:text-[64px];
-    @apply mb-8 md:mb-12 last:mb-0;
+    @apply mb-8 last:mb-0 md:mb-12;
   }
 
   h2,
@@ -51,7 +51,7 @@
 
   p,
   blockquote {
-    @apply text-base md:text-lg !leading-1.75;
+    @apply text-base !leading-1.75 md:text-lg;
   }
 
   a {
@@ -63,13 +63,13 @@
   }
 
   .content a {
-    @apply text-emerald-400 hover:text-emerald-500 font-semibold underline underline-offset-4;
+    @apply font-semibold text-emerald-400 underline underline-offset-4 hover:text-emerald-500;
   }
 }
 
 @layer utilities {
   .center {
-    @apply flex justify-center items-center;
+    @apply flex items-center justify-center;
   }
 
   .my-section {

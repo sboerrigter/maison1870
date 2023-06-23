@@ -28,19 +28,19 @@ export default function Gallery() {
 
   return (
     <section className="my-section">
-      <Wrap className="max-w-[880px] relative">
-        <div className="w-full aspect-[4/3] bg-gray-900 mb-3 md:mb-5 rounded-lg relative overflow-hidden">
+      <Wrap className="relative max-w-[880px]">
+        <div className="relative mb-3 aspect-[4/3] w-full overflow-hidden rounded-lg bg-gray-900 md:mb-5">
           {images.map((number) => (
             <Image
               alt={`Maison 1870, photo ${number}`}
               className={`
-                  object-contain transition-opacity duration-150
-                  absolute w-full h-full left-0 top-0
+                  absolute left-0 top-0
+                  h-full w-full object-contain transition-opacity duration-150
                 ${current == number ? "opacity-100" : "opacity-0"}
               `}
               height={600}
               key={number}
-              sizes="(max-width: 880px) 100vw, 800px"
+              sizes="(max-width: 879px) 100vw, 800px"
               src={`/photos/${number}.jpg`}
               width={800}
             />
@@ -50,17 +50,17 @@ export default function Gallery() {
         <button
           aria-label="previous"
           className="
-            w-12 h-12 rounded-full shadow-md center pr-1
-            bg-white text-gray-800
-            hover:bg-emerald-400 hover:text-white
-            transition-colors duration-200
-            absolute bottom-3 left-8
-            md:w-16 md:h-16 md:-mt-8 md:left-2 md:top-1/2
+            center absolute bottom-3 left-8 h-12 w-12
+            rounded-full bg-white
+            pr-1 text-gray-800
+            shadow-md transition-colors
+            duration-200 hover:bg-emerald-400 hover:text-white
+            md:left-2 md:top-1/2 md:-mt-8 md:h-16 md:w-16
           "
           onClick={() => previous()}
         >
           <svg
-            className="w-5 h-5 md:w-6 md:h-6"
+            className="h-5 w-5 md:h-6 md:w-6"
             fill="none"
             stroke="currentColor"
             strokeWidth="2"
@@ -78,17 +78,17 @@ export default function Gallery() {
         <button
           aria-label="next"
           className="
-            w-12 h-12 rounded-full shadow-md center pl-1
-            bg-white text-gray-800
-            hover:bg-emerald-400 hover:text-white
-            transition-colors duration-200
-            absolute bottom-3 right-8
-            md:w-16 md:h-16 md:-mt-8 md:right-2 md:top-1/2
+            center absolute bottom-3 right-8 h-12 w-12
+            rounded-full bg-white
+            pl-1 text-gray-800
+            shadow-md transition-colors
+            duration-200 hover:bg-emerald-400 hover:text-white
+            md:right-2 md:top-1/2 md:-mt-8 md:h-16 md:w-16
           "
           onClick={() => next()}
         >
           <svg
-            className="w-5 h-5 md:w-6 md:h-6"
+            className="h-5 w-5 md:h-6 md:w-6"
             fill="none"
             stroke="currentColor"
             strokeWidth="2"
@@ -104,13 +104,13 @@ export default function Gallery() {
         </button>
       </Wrap>
 
-      <div className="flex flex-nowrap overflow-x-auto gap-4 md:gap-5 p-5 md:px-10 pb-10 -mb-10">
+      <div className="-mb-10 flex flex-nowrap gap-4 overflow-x-auto p-5 pb-10 md:gap-5 md:px-10">
         {images.map((number) => (
           <Image
             alt={`Maison 1870, photo ${number}`}
             className={`
-              w-[120px] md:w-[180px] aspect-square rounded-lg object-cover cursor-pointer
-              transition-all duration-150 ease-out
+              aspect-square w-[120px] cursor-pointer rounded-lg object-cover transition-all
+              duration-150 ease-out md:w-[180px]
               ${
                 current == number
                   ? "scale-110 shadow-lg shadow-black/20"
