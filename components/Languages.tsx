@@ -5,12 +5,12 @@ export default function Languages() {
     {
       id: "french",
       flag: "🇫🇷",
-      text: "Nous parlons français",
+      text: "Nous parlons Français",
     },
     {
       id: "english",
       flag: "🇬🇧",
-      text: "We speak english",
+      text: "We speak English",
     },
     {
       id: "dutch",
