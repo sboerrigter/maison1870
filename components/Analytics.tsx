@@ -16,6 +16,7 @@ export default function Analytics() {
 
           gtag('js', new Date());
           gtag('config', 'G-H9093VEY2L', {
+            anonymize_ip: true,
             page_path: window.location.pathname
           });
         `,
