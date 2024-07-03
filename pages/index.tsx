@@ -100,6 +100,12 @@ export default function Home() {
           recommend booking via Gites.com because that platform has the lowest
           commission and is therefore the cheapest.
         </p>
+
+        <p>
+          We also accept Chèques-Vacances Classic and Chèques-Vacances Connect,
+          please <a href="mailto:bonjour@maison1870.com">contact us</a> if you
+          wish to pay with Chèques-Vacances.
+        </p>
         <Button />
       </Content>
       <Footer />
