@@ -323,7 +323,7 @@ export default function Home() {
           <h3>Blijven slapen</h3>
           <p>
             We hebben ook beperkte ruimte voor volwassenen om te blijven slapen.
-            We horen graag of je daar gebruik van wil maken en van wanneer tot
+            We horen graag of je daar gebruik van wil maken en van- en tot
             wanneer jullie denken te blijven. Dan gaan wij even puzzelen of en
             hoe dat past. Waarschijnlijk hebben we niet genoeg bedden voor
             iedereen, dus we zullen sommige mensen vragen om zelf een slaapzak
