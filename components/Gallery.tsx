@@ -2,7 +2,7 @@ import Image from "next/image";
 import Wrap from "@/components/Wrap";
 import { useState } from "react";
 
-export default function Gallery() {
+export default function Gallery({ prefix = "" }) {
   const [current, setCurrent] = useState(1);
   const images = [...Array(18).keys()].map((number) => {
     return number + 1;
@@ -41,7 +41,7 @@ export default function Gallery() {
               height={600}
               key={number}
               sizes="(max-width: 879px) 100vw, 800px"
-              src={`/photos/${number}.jpg`}
+              src={`/photos/${prefix}${number}.jpg`}
               width={800}
             />
           ))}
@@ -121,7 +121,7 @@ export default function Gallery() {
             height={180}
             key={number}
             onClick={() => setCurrent(number)}
-            src={`/photos/${number}.jpg`}
+            src={`/photos/${prefix}${number}.jpg`}
             width={180}
           />
         ))}

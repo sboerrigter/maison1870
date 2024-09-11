@@ -45,11 +45,12 @@
 
   h3,
   .h3 {
-    @apply text-[24px] xs:text-[30px] md:text-[36px];
+    @apply text-[20px] xs:text-[24px] md:text-[30px];
     @apply mb-6 last:mb-0;
   }
 
   p,
+  ul,
   blockquote {
     @apply text-base !leading-1.75 md:text-lg;
   }
@@ -58,7 +59,15 @@
     @apply cursor-pointer transition-colors duration-200;
   }
 
+  strong {
+    @apply text-gray-800;
+  }
+
   .content p {
+    @apply mb-8 last:mb-0;
+  }
+
+  .content ul {
     @apply mb-8 last:mb-0;
   }
 
