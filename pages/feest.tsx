@@ -312,9 +312,9 @@ export default function Home() {
       <Content>
         <h2>Slapen</h2>
         <p>
-          Na het feestje mogen kinderen blijven slapen, zodat de papa's en
-          mama's wat langer kunnen blijven. Ze worden s'ochtends opgevangen door
-          Netflix en stokbrood met Nutella. 📺🥖
+          Na het feestje mogen kinderen blijven slapen, zodat de papa&apos;s en
+          mama&apos;s wat langer kunnen blijven. Ze worden s&apos;ochtends
+          opgevangen door Netflix en stokbrood met Nutella. 📺🥖
         </p>
 
         <h3>Blijven slapen</h3>
