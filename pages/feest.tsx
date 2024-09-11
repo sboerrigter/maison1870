@@ -200,7 +200,7 @@ export default function Home() {
           </li>
 
           <li className="my-4">
-            🎉 Als je het leuk vindt, mag je de week lang blijven en meedoen met
+            🎉 Als je het leuk vindt, mag je hele week blijven en meedoen met
             leuke activiteiten!
           </li>
         </ul>
@@ -261,7 +261,8 @@ export default function Home() {
           Je kan je aanmelden voor de hele feestweek, of alleen voor een deel
           van deze activiteiten. Tijdens de feestweek is eten & drinken in
           restaurants voor eigen rekening en vragen we een bijdrage voor sommige
-          activiteiten. Anders wordt het wel een erg duur feestje 😅.
+          activiteiten (zie hierboven). Anders wordt het wel een erg duur
+          feestje 😅.
         </p>
       </Content>
 
@@ -279,12 +280,13 @@ export default function Home() {
             </p>
 
             <p>
-              We hebben niet veel parkeerplekken, dus we willen iedereen vragen
-              om ergens anders te parkeren. Zoals op het parkeerterrein bij de{" "}
+              We hebben niet veel parkeerplekken. Daarom willen we iedereen
+              vragen om ergens anders te parkeren, zoals op het parkeerterrein
+              bij de{" "}
               <a href="https://www.google.com/maps/place/Carrefour+Market+Sarlat-La-Caneda/@44.902465,1.2071664,17z/data=!4m7!3m6!1s0x12ab561f1a2d36e7:0xb8d1b6bc10057de8!8m2!3d44.902465!4d1.21193!15sChBDYXJyZWZvdXIgTWFya2V0IgOIAQFaEiIQY2FycmVmb3VyIG1hcmtldJIBC3N1cGVybWFya2V04AEA!16s%2Fg%2F1tnxz3ck?entry=tts&g_ep=EgoyMDI0MDkwNC4wKgBIAVAD">
                 Carrefour Market
               </a>
-              . Vanaf daar kan je in 20 minuten naar ons huis wandelen.
+              . Vanaf daar kan je in 15 minuten naar ons huis wandelen.
               Chauffeurs kunnen wel mensen bij ons afzetten, voordat ze de auto
               parkeren.
             </p>
@@ -309,142 +311,145 @@ export default function Home() {
         </div>
       </Wrap>
 
-      <Content>
-        <h2>Slapen</h2>
-        <p>
-          Na het feestje mogen kinderen blijven slapen, zodat de papa&apos;s en
-          mama&apos;s wat langer kunnen blijven. Ze worden s&apos;ochtends
-          opgevangen door Netflix en stokbrood met Nutella. 📺🥖
-        </p>
+      <section className="mt-section mb-section bg-gradient-to-b from-transparent to-emerald-50 pb-2">
+        <Content>
+          <h2>Slapen</h2>
+          <p>
+            Na het feestje mogen kinderen blijven slapen, zodat de papa&apos;s
+            en mama&apos;s wat langer kunnen blijven. Ze worden s&apos;ochtends
+            opgevangen door Netflix en stokbrood met Nutella.
+          </p>
 
-        <h3>Blijven slapen</h3>
-        <p>
-          We hebben ook beperkte ruimte voor volwassenen om te blijven slapen.
-          We horen graag of je daar gebruik van wilt maken en van wanneer tot
-          wanneer jullie denken te blijven. Dan gaan wij even puzzelen of en hoe
-          dat past. Waarschijnlijk hebben we niet genoeg bedden voor iedereen,
-          dus we zullen sommige mensen vragen om zelf een slaapzak mee te nemen
-          en ergens op de grond te slapen.
-        </p>
+          <h3>Blijven slapen</h3>
+          <p>
+            We hebben ook beperkte ruimte voor volwassenen om te blijven slapen.
+            We horen graag of je daar gebruik van wil maken en van wanneer tot
+            wanneer jullie denken te blijven. Dan gaan wij even puzzelen of en
+            hoe dat past. Waarschijnlijk hebben we niet genoeg bedden voor
+            iedereen, dus we zullen sommige mensen vragen om zelf een slaapzak
+            mee te nemen en ergens op de grond te slapen.
+          </p>
 
-        <h3>Andere slaap mogelijkheden</h3>
-        <p>
-          Als je liever een rustiger plekje opzoekt om te slapen, zijn er ook
-          een heleboel andere mogelijkheden in de buurt. Hierbij een aantal
-          tips:
-        </p>
+          <h3>Andere slaap mogelijkheden</h3>
+          <p>
+            Als je liever een rustiger plekje opzoekt om te slapen, zijn er ook
+            een heleboel andere mogelijkheden in de buurt. Hierbij een aantal
+            tips:
+          </p>
 
-        <ul>
-          <li>
+          <p>
             <a href="https://www.airbnb.com/s/Les-Hauts-de-Sarlat/homes">
               Les hauts de Sarlat
-            </a>{" "}
-            - Vakantiehuisjes op 1 minuut loopafstand
-          </li>
-          <li>
-            <a href="https://domainederavat.fr/">Domaine de Ravat</a> - Luxe
-            hotel op 3 minuten loopafstand
-          </li>
-          <li>
-            <a href="https://www.hotel-sarlat.com/">Hotel de la Pagézie</a> -
+            </a>
+            <br />
+            Vakantiehuisjes op 1 minuut loopafstand
+          </p>
+          <p>
+            <a href="https://domainederavat.fr/">Domaine de Ravat</a>
+            <br />
+            Luxe hotel op 3 minuten loopafstand
+          </p>
+          <p>
+            <a href="https://www.hotel-sarlat.com/">Hotel de la Pagézie</a>
+            <br />
             Hotel op 10 minuten loopafstand
-          </li>
-          <li>
+          </p>
+          <p>
             <a href="https://en.sarlat-tourisme.com/offers/aire-communale-de-sarlat-la-caneda-sarlat-la-caneda-en-1939725/">
               Camperplaats Sarlat
-            </a>{" "}
-            - Camper standplaats op 15 minuten loopafstand
-          </li>
-          <li>
+            </a>
+            <br />
+            Camper standplaats op 15 minuten loopafstand
+          </p>
+          <p>
             <a href="https://europe.huttopia.com/en/site/sarlat/">
               Huttopia Sarlat
+            </a>
+            <br />
+            Camping met huisjes en standplaatsen op 5 minuten rijden
+          </p>
+
+          <p>
+            Op de website{" "}
+            <a href="https://en.sarlat-tourisme.com/i-prepare-my-stay/accommodation/">
+              sarlat-tourisme.com
             </a>{" "}
-            - Camping (met huisjes) op 5 minuten rijden
-          </li>
-        </ul>
+            vind je nog veel meer hotels, campings en vakantiehuisjes. We raden
+            je wel aan om op tijd te boeken, want in de zomer is het hier erg
+            druk!
+          </p>
+        </Content>
+      </section>
+      <Wrap className="mb-section flex max-w-[1160px] flex-col-reverse items-center gap-[60px] lg:flex-row xl:gap-[120px]">
+        <div className="mx-8 xs:mx-12 lg:mx-0 lg:w-1/2">
+          {" "}
+          <Image
+            alt="Your hosts Hannah & Sjoerd"
+            height={480}
+            src="/photos/party/hartje.png"
+            width={480}
+          />
+        </div>
 
-        <p>
-          Op de website{" "}
-          <a href="https://en.sarlat-tourisme.com/i-prepare-my-stay/accommodation/">
-            sarlat-tourisme.com
-          </a>{" "}
-          vind je nog veel meer hotels, campings en vakantiehuisjes. We raden je
-          wel aan om op tijd te boeken, want in de zomer is het hier erg druk!
-        </p>
-      </Content>
+        <div className="content text-center lg:w-1/2 lg:text-left">
+          <h2>Zijn jullie er bij?</h2>
+          <p>
+            Wij hebben er nu al zin in! We horen graag of jullie er bij zijn,
+            willen blijven slapen en mee willen doen met de Hannah & Sjoerd
+            feestweek. Hiervoor kan je het formuliertje achter deze link
+            gebruiken:
+          </p>
 
-      <section className="mt-section flex bg-gradient-to-b from-transparent to-emerald-50 pb-12">
-        <Wrap className="mb-section flex max-w-[1160px] flex-col-reverse items-center gap-[60px] lg:flex-row xl:gap-[120px]">
-          <div className="mx-8 xs:mx-12 lg:mx-0 lg:w-1/2">
-            {" "}
-            <Image
-              alt="Your hosts Hannah & Sjoerd"
-              height={480}
-              src="/photos/party/hartje.png"
-              width={480}
-            />
-          </div>
-
-          <div className="content text-center lg:w-1/2 lg:text-left">
-            <h2>Zijn jullie er bij?</h2>
-            <p>
-              Wij hebben er nu al zin in! We horen graag of jullie er bij zijn,
-              willen blijven slapen en mee willen doen met de Hannah & Sjoerd
-              feestweek. Hiervoor kan je het formuliertje achter deze link
-              gebruiken:
-            </p>
-
-            <Link
-              className={`
+          <Link
+            className={`
                 mb-8 inline-flex items-center
                 justify-center rounded-full
                 bg-emerald-400 px-8 py-3 font-semibold
                 !text-white !no-underline shadow-md
                 shadow-black/10 hover:bg-emerald-500
               `}
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfCpC1BZ8pvlP5AbcT3uAoKSrAYh7Vu8exo79xFhLtS7n4k0A/viewform"
-              target="_blank"
-              rel="nofollow"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfCpC1BZ8pvlP5AbcT3uAoKSrAYh7Vu8exo79xFhLtS7n4k0A/viewform"
+            target="_blank"
+            rel="nofollow"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={2}
+              stroke="currentColor"
+              className="mr-1.5 h-5 w-5"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={2}
-                stroke="currentColor"
-                className="mr-1.5 h-5 w-5"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
-                />
-              </svg>
-              Laat weten of je er bij bent
-            </Link>
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+              />
+            </svg>
+            Laat weten of je er bij bent
+          </Link>
 
-            <p>
-              We horen graag voor <strong>1 november 2024</strong> of je er bij
-              bent, zodat we hier rekening mee kunnen houden tijdens de
-              voorbereidingen.
-            </p>
+          <p>
+            We horen graag voor <strong>1 november 2024</strong> of je er bij
+            bent, zodat we hier rekening mee kunnen houden tijdens de
+            voorbereidingen.
+          </p>
 
-            <p>
-              Groetjes,
-              <br />
-              Hannah, Sjoerd, David en Lucas ❤️
-            </p>
+          <p>
+            Groetjes,
+            <br />
+            Hannah, Sjoerd, David en Lucas ❤️
+          </p>
 
-            <p>
-              <i>
-                p.s. <a href="tel:+33632004114">Bel</a> of{" "}
-                <a href="mailto:bonjour@maison1870.com">mail</a> ons gerust als
-                je nog vragen hebt!
-              </i>
-            </p>
-          </div>
-        </Wrap>
-      </section>
+          <p>
+            <i>
+              p.s. <a href="tel:+33632004114">Bel</a> of{" "}
+              <a href="mailto:bonjour@maison1870.com">mail</a> ons gerust als je
+              nog vragen hebt!
+            </i>
+          </p>
+        </div>
+      </Wrap>
 
       <Footer />
     </>
