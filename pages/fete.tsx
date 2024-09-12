@@ -171,8 +171,8 @@ export default function Home() {
           </li>
 
           <li className="my-4">
-            ☀️ N'hésitez pas à venir en short si ça vous dit, il fait chaud ici
-            !
+            ☀️ N&apos;hésitez pas à venir en short si ça vous dit, il fait chaud
+            ici !
           </li>
 
           <li className="my-4">
@@ -184,12 +184,12 @@ export default function Home() {
           </li>
 
           <li className="my-4">
-            🩳 Les enfants sont les bienvenus (n'oubliez pas leur maillot).
+            🩳 Les enfants sont les bienvenus (n&apos;oubliez pas leur maillot).
           </li>
 
           <li className="my-4">
-            ⏰ La musique s'éteindra à partir de 20:00 pour ne pas géner les
-            voisins, mais restez aussi longtemps que vous le souhaitez !
+            ⏰ La musique s&apos;éteindra à partir de 20:00 pour ne pas géner
+            les voisins, mais restez aussi longtemps que vous le souhaitez !
           </li>
 
           <li className="my-4">
@@ -209,9 +209,10 @@ export default function Home() {
       <Content>
         <h2>La semaine de fête de Hannah & Sjoerd !</h2>
         <p>
-          Nous savons que beaucoup d'entre vous viendront de loin et nous avons
-          donc prévu de prolonger la fête sur la semaine qui suivra. Vous pouvez
-          vous inscrire à une ou plusieurs activités. Voici le programme :
+          Nous savons que beaucoup d&apos;entre vous viendront de loin et nous
+          avons donc prévu de prolonger la fête sur la semaine qui suivra. Vous
+          pouvez vous inscrire à une ou plusieurs activités. Voici le programme
+          :
         </p>
 
         <p>
@@ -237,8 +238,8 @@ export default function Home() {
         <p>
           <strong>Mercredi 30 juillet 2025</strong>
           <br />
-          Tour sur le marché de Sarlat, suivi d'un “bring your own” apéro à la
-          maison pour partager ce que nous aurons acheté.
+          Tour sur le marché de Sarlat, suivi d&apos;un “bring your own” apéro à
+          la maison pour partager ce que nous aurons acheté.
         </p>
 
         <p>
@@ -266,7 +267,7 @@ export default function Home() {
           <div className="content flex-1 text-center lg:mb-24 lg:w-1/2 lg:max-w-[480px] lg:text-left xl:mb-36">
             <h2>Adresse et parking</h2>
             <p>
-              La fête aura lieu chez nous à l'adresse{" "}
+              La fête aura lieu chez nous à l&apos;adresse{" "}
               <a href="https://maps.app.goo.gl/a2ex17CEi1Gz9Xe56">
                 13 Côte de Ravat in Sarlat-la-Canéda
               </a>
@@ -275,9 +276,9 @@ export default function Home() {
             </p>
 
             <p>
-              Nous n'avons pas beaucoup de places de parking. Nous demanderons
-              donc à tout le monde de se garer ailleurs, par exemple sur le
-              parking du{" "}
+              Nous n&apos;avons pas beaucoup de places de parking. Nous
+              demanderons donc à tout le monde de se garer ailleurs, par exemple
+              sur le parking du{" "}
               <a href="https://www.google.com/maps/place/Carrefour+Market+Sarlat-La-Caneda/@44.902465,1.2071664,17z/data=!4m7!3m6!1s0x12ab561f1a2d36e7:0xb8d1b6bc10057de8!8m2!3d44.902465!4d1.21193!15sChBDYXJyZWZvdXIgTWFya2V0IgOIAQFaEiIQY2FycmVmb3VyIG1hcmtldJIBC3N1cGVybWFya2V04AEA!16s%2Fg%2F1tnxz3ck?entry=tts&g_ep=EgoyMDI0MDkwNC4wKgBIAVAD">
                 Carrefour Market
               </a>
@@ -319,15 +320,15 @@ export default function Home() {
           <p>
             Nous aurons quelques places pour les adultes. Merci de nous dire
             rapidement si vous souhaitez rester dormir et nous verrons ce qui
-            sera possible. Nous n'aurons surement pas assez de lits pour tout le
-            monde, peut-être que certains devront amener leur sac de couchage et
-            tapis de sol.
+            sera possible. Nous n&apos;aurons surement pas assez de lits pour
+            tout le monde, peut-être que certains devront amener leur sac de
+            couchage et tapis de sol.
           </p>
 
           <h3>Autres options pour rester dormir</h3>
           <p>
-            Si vous préférez dormir au calme, vous trouverez beaucoup d'options
-            dans le coin. Voici une petite liste :
+            Si vous préférez dormir au calme, vous trouverez beaucoup
+            d&apos;options dans le coin. Voici une petite liste :
           </p>
 
           <p>
@@ -367,9 +368,9 @@ export default function Home() {
             <a href="https://en.sarlat-tourisme.com/i-prepare-my-stay/accommodation/">
               sarlat-tourisme.com
             </a>{" "}
-            vous trouverez d'autres options d'hotels, campings et chalets. Nous
-            vous conseillons de réserver bien à l'avance, en été il y a
-            énormément de monde à Sarlat !
+            vous trouverez d&apos;autres options d&apos;hotels, campings et
+            chalets. Nous vous conseillons de réserver bien à l&apos;avance, en
+            été il y a énormément de monde à Sarlat !
           </p>
         </Content>
       </section>
