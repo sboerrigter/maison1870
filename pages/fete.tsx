@@ -122,7 +122,7 @@ export default function Home() {
                 !no-underline shadow-md shadow-black/10
                 hover:bg-emerald-500 sm:flex
               `}
-            href="https://docs.google.com/forms/d/e/1FAIpQLSfCpC1BZ8pvlP5AbcT3uAoKSrAYh7Vu8exo79xFhLtS7n4k0A/viewform"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeMpxw-8m3eBxXum2j1ndWONXosXBFnQv54hFraCrpqwy4oOQ/viewform"
             target="_blank"
             rel="nofollow"
           >
@@ -400,7 +400,7 @@ export default function Home() {
                 !text-white !no-underline shadow-md
                 shadow-black/10 hover:bg-emerald-500
               `}
-            href="https://docs.google.com/forms/d/e/1FAIpQLSfCpC1BZ8pvlP5AbcT3uAoKSrAYh7Vu8exo79xFhLtS7n4k0A/viewform"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeMpxw-8m3eBxXum2j1ndWONXosXBFnQv54hFraCrpqwy4oOQ/viewform"
             target="_blank"
             rel="nofollow"
           >
