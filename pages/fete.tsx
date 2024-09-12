@@ -349,8 +349,8 @@ export default function Home() {
             Hotel à 10 minutes à pied
           </p>
           <p>
-            <a href="https://en.sarlat-tourisme.com/offers/aire-communale-de-sarlat-la-caneda-sarlat-la-caneda-en-1939725/">
-              Parking pour les camping-cars à Sarlat
+            <a href="https://www.aire-service-camping-car-panoramique.fr/dordogne/24-sarlat-la-caneda">
+              Aire de camping car de Sarlat
             </a>
             <br />
             Parking pour les camping-cars à 15 minutes à pied

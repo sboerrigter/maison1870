@@ -155,7 +155,7 @@ export default function Home() {
           10 jaar getrouwd!
         </h2>
         <p>
-          In juli 2025 is het al weer 10 jaar geleden dat wij (Hannah en Sjoerd)
+          In juli 2025 is het alweer 10 jaar geleden dat wij (Hannah en Sjoerd)
           zijn getrouwd. Deze mooie mijlpaal willen we graag met jullie vieren.
           Daarom geven we op <strong>zaterdag 26 juli 2025</strong> een feest,
           waar we jullie graag voor willen uitnodigen. Dit is ongeveer het idee:
@@ -354,7 +354,7 @@ export default function Home() {
             Hotel op 10 minuten loopafstand
           </p>
           <p>
-            <a href="https://en.sarlat-tourisme.com/offers/aire-communale-de-sarlat-la-caneda-sarlat-la-caneda-en-1939725/">
+            <a href="https://www.aire-service-camping-car-panoramique.fr/dordogne/24-sarlat-la-caneda">
               Camperplaats Sarlat
             </a>
             <br />
