@@ -14,6 +14,7 @@ export default function Home() {
       <Head>
         <title>10 ans de mariage de Hannah & Sjoerd !</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="robots" content="noindex" />
         <link rel="icon" href="/favicon.ico" />
         <link
           key="preconnect-ga"
@@ -154,13 +155,15 @@ export default function Home() {
           10 ans de mariage !
         </h2>
         <p>
-          En juillet 2025 nous (Hannah en Sjoerd) fêterons nos 10 ans de mariage. Nous aimerions fêter cette étape importante avec vous.
-          Nous vous invitons donc à notre journée spéciale le <strong>samedi 26 juillet 2025</strong>. Voici ce que nous avons prévu :
+          En juillet 2025 nous (Hannah en Sjoerd) fêterons nos 10 ans de
+          mariage. Nous aimerions fêter cette étape importante avec vous. Nous
+          vous invitons donc à notre journée spéciale le{" "}
+          <strong>samedi 26 juillet 2025</strong>. Voici ce que nous avons prévu
+          :
         </p>
         <ul>
           <li className="my-4">
-            🇫🇷 La fête aura lieu chez nous à Sarlat-la-Canéda
-            (en France).
+            🇫🇷 La fête aura lieu chez nous à Sarlat-la-Canéda (en France).
           </li>
 
           <li className="my-4">
@@ -168,7 +171,8 @@ export default function Home() {
           </li>
 
           <li className="my-4">
-            ☀️ N'hésitez pas à venir en short si ça vous dit, il fait chaud ici !
+            ☀️ N'hésitez pas à venir en short si ça vous dit, il fait chaud ici
+            !
           </li>
 
           <li className="my-4">
@@ -184,15 +188,18 @@ export default function Home() {
           </li>
 
           <li className="my-4">
-            ⏰ La musique s'éteindra à partir de 20:00 pour ne pas géner les voisins, mais restez aussi longtemps que vous le souhaitez !
+            ⏰ La musique s'éteindra à partir de 20:00 pour ne pas géner les
+            voisins, mais restez aussi longtemps que vous le souhaitez !
           </li>
 
           <li className="my-4">
-            🛏️ Les enfants peuvent rester dormir et nous aurons quelques places pour les adultes.
+            🛏️ Les enfants peuvent rester dormir et nous aurons quelques places
+            pour les adultes.
           </li>
 
           <li className="my-4">
-            🎉 Si vous le souhaitez vous pouvez rester toute la semaine et participer à une ou plusieurs activités que nous avons prévues !
+            🎉 Si vous le souhaitez vous pouvez rester toute la semaine et
+            participer à une ou plusieurs activités que nous avons prévues !
           </li>
         </ul>
       </Content>
@@ -202,51 +209,55 @@ export default function Home() {
       <Content>
         <h2>La semaine de fête de Hannah & Sjoerd !</h2>
         <p>
-          Nous savons que beaucoup d'entre vous viendront de loin et nous avons donc prévu de prolonger la fête sur la semaine qui suivra. Vous pouvez vous inscrire à une ou plusieurs activités.
-          Voici le programme :
+          Nous savons que beaucoup d'entre vous viendront de loin et nous avons
+          donc prévu de prolonger la fête sur la semaine qui suivra. Vous pouvez
+          vous inscrire à une ou plusieurs activités. Voici le programme :
         </p>
 
         <p>
           <strong>Dimanche 27 juillet 2025</strong>
           <br />
-          Journée tranquille sur la plage au bord de la Dordogne avec possibilité de déjeuner sur place.
+          Journée tranquille sur la plage au bord de la Dordogne avec
+          possibilité de déjeuner sur place.
         </p>
 
         <p>
           <strong>Lundi 28 juillet 2025</strong>
           <br />
-          Rally culturel avec un déjeuner dans une ferme aux canards et une dégustation de vins.
+          Rally culturel avec un déjeuner dans une ferme aux canards et une
+          dégustation de vins.
         </p>
 
         <p>
           <strong>Mardi 29 juillet 2025</strong>
           <br />
-          Canoë sur la Dordogne avec pique-nique (adultes € 25, enfants €
-          15).
+          Canoë sur la Dordogne avec pique-nique (adultes € 25, enfants € 15).
         </p>
 
         <p>
           <strong>Mercredi 30 juillet 2025</strong>
           <br />
-          Tour sur le marché de Sarlat, suivi d'un “bring your own” apéro à la maison pour partager ce que nous aurons acheté.
+          Tour sur le marché de Sarlat, suivi d'un “bring your own” apéro à la
+          maison pour partager ce que nous aurons acheté.
         </p>
 
         <p>
           <strong>Jeudi 31 juillet 2025</strong>
           <br />
-          Accrobranche à “La Forêt des Ecureuils” (adultes € 20,
-          enfants € 15).
+          Accrobranche à “La Forêt des Ecureuils” (adultes € 20, enfants € 15).
         </p>
 
         <p>
           <strong>Vendredi 1 août 2025</strong>
           <br />
-          BBQ afterparty (adultes € 20, enfants €
-          10).
+          BBQ afterparty (adultes € 20, enfants € 10).
         </p>
 
         <p>
-          Vous pouvez vous inscrire pour toute la semaine ou pour une partie des activités. Pendant cette semaine les plats et boissons dans les restaurants seront à vos frais et nous vous demanderons de participer financièrement pour quelques activités (voir ci-dessus).
+          Vous pouvez vous inscrire pour toute la semaine ou pour une partie des
+          activités. Pendant cette semaine les plats et boissons dans les
+          restaurants seront à vos frais et nous vous demanderons de participer
+          financièrement pour quelques activités (voir ci-dessus).
         </p>
       </Content>
 
@@ -259,16 +270,20 @@ export default function Home() {
               <a href="https://maps.app.goo.gl/a2ex17CEi1Gz9Xe56">
                 13 Côte de Ravat in Sarlat-la-Canéda
               </a>
-              . Nous habitons à 5 minutes du centre médiéval et à 12 heures des Pays-Bas.
+              . Nous habitons à 5 minutes du centre médiéval et à 12 heures des
+              Pays-Bas.
             </p>
 
             <p>
-              Nous n'avons pas beaucoup de places de parking. Nous demanderons donc à tout le monde de se garer ailleurs, par exemple sur le parking du{" "}
+              Nous n'avons pas beaucoup de places de parking. Nous demanderons
+              donc à tout le monde de se garer ailleurs, par exemple sur le
+              parking du{" "}
               <a href="https://www.google.com/maps/place/Carrefour+Market+Sarlat-La-Caneda/@44.902465,1.2071664,17z/data=!4m7!3m6!1s0x12ab561f1a2d36e7:0xb8d1b6bc10057de8!8m2!3d44.902465!4d1.21193!15sChBDYXJyZWZvdXIgTWFya2V0IgOIAQFaEiIQY2FycmVmb3VyIG1hcmtldJIBC3N1cGVybWFya2V04AEA!16s%2Fg%2F1tnxz3ck?entry=tts&g_ep=EgoyMDI0MDkwNC4wKgBIAVAD">
                 Carrefour Market
               </a>
-              . A partir de là il vous faudra 15 minutes à pied pour rejoindre notre maison.
-              Les chauffeurs pourrons bien sûr déposer du monde avant de partir se garer.
+              . A partir de là il vous faudra 15 minutes à pied pour rejoindre
+              notre maison. Les chauffeurs pourrons bien sûr déposer du monde
+              avant de partir se garer.
             </p>
           </div>
           <Map className="max-w-[600px] lg:w-1/2" />
@@ -295,17 +310,24 @@ export default function Home() {
         <Content>
           <h2>Dormir</h2>
           <p>
-            Après la fête les enfants pourrons rester dormir pour que les papas et mamans puissent rester plus longtemps. Le lendemain ils se réveilleront avec Netflix et des tartines au Nutella.
+            Après la fête les enfants pourrons rester dormir pour que les papas
+            et mamans puissent rester plus longtemps. Le lendemain ils se
+            réveilleront avec Netflix et des tartines au Nutella.
           </p>
 
           <h3>Rester dormir</h3>
           <p>
-            Nous aurons quelques places pour les adultes. Merci de nous dire rapidement si vous souhaitez rester dormir et nous verrons ce qui sera possible. Nous n'aurons surement pas assez de lits pour tout le monde, peut-être que certains devront amener leur sac de couchage et tapis de sol.
+            Nous aurons quelques places pour les adultes. Merci de nous dire
+            rapidement si vous souhaitez rester dormir et nous verrons ce qui
+            sera possible. Nous n'aurons surement pas assez de lits pour tout le
+            monde, peut-être que certains devront amener leur sac de couchage et
+            tapis de sol.
           </p>
 
           <h3>Autres options pour rester dormir</h3>
           <p>
-            Si vous préférez dormir au calme, vous trouverez beaucoup d'options dans le coin. Voici une petite liste :
+            Si vous préférez dormir au calme, vous trouverez beaucoup d'options
+            dans le coin. Voici une petite liste :
           </p>
 
           <p>
@@ -345,7 +367,9 @@ export default function Home() {
             <a href="https://en.sarlat-tourisme.com/i-prepare-my-stay/accommodation/">
               sarlat-tourisme.com
             </a>{" "}
-            vous trouverez d'autres options d'hotels, campings et chalets. Nous vous conseillons de réserver bien à l'avance, en été il y a énormément de monde à Sarlat !
+            vous trouverez d'autres options d'hotels, campings et chalets. Nous
+            vous conseillons de réserver bien à l'avance, en été il y a
+            énormément de monde à Sarlat !
           </p>
         </Content>
       </section>
@@ -363,7 +387,9 @@ export default function Home() {
         <div className="content text-center lg:w-1/2 lg:text-left">
           <h2>Vous venez aussi ?</h2>
           <p>
-            Nous avons déjà hâte ! Merci de nous informer de votre venue à la fête, si vous souhaitez rester dormir et si vous participerez à la semaine qui suivra la fête. Merci de renseigner ce formulaire :
+            Nous avons déjà hâte ! Merci de nous informer de votre venue à la
+            fête, si vous souhaitez rester dormir et si vous participerez à la
+            semaine qui suivra la fête. Merci de renseigner ce formulaire :
           </p>
 
           <Link
@@ -396,7 +422,9 @@ export default function Home() {
           </Link>
 
           <p>
-            Merci de nous faire savoir avant le <strong>1 novembre 2024</strong> si vous serez présents afin que nous puissions en tenir compte lors des préparatifs.
+            Merci de nous faire savoir avant le <strong>1 novembre 2024</strong>{" "}
+            si vous serez présents afin que nous puissions en tenir compte lors
+            des préparatifs.
           </p>
 
           <p>
@@ -408,7 +436,8 @@ export default function Home() {
           <p>
             <i>
               p.s. <a href="tel:+33632004114">Appelez-nous</a> ou{" "}
-              <a href="mailto:bonjour@maison1870.com">envoyez un email</a> si vous avez des questions !
+              <a href="mailto:bonjour@maison1870.com">envoyez un email</a> si
+              vous avez des questions !
             </i>
           </p>
         </div>

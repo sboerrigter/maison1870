@@ -14,6 +14,7 @@ export default function Home() {
       <Head>
         <title>Hannah & Sjoerd 10 jaar getrouwd!</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="robots" content="noindex" />
         <link rel="icon" href="/favicon.ico" />
         <link
           key="preconnect-ga"
