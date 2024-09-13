@@ -108,7 +108,7 @@ export default function Home() {
                 Hannah & Sjoerd
               </p>
               <p className="text-2xs font-semibold uppercase !leading-none tracking-wider 2xs:text-xs lg:text-sm">
-                10 jaar getrouwd
+                10 ans de mariage
               </p>
             </div>
           </div>
@@ -155,9 +155,8 @@ export default function Home() {
           10 ans de mariage !
         </h2>
         <p>
-          En juillet 2025 nous (Hannah en Sjoerd) fêterons nos 10 ans de
-          mariage. Nous aimerions fêter cette étape importante avec vous. Nous
-          vous invitons donc à notre journée spéciale le{" "}
+          En juillet 2025 nous fêterons nos 10 ans de mariage et nous aimerions fêter ce moment important avec vous.
+          Nous vous invitons donc à notre fête le{" "}
           <strong>samedi 26 juillet 2025</strong>. Voici ce que nous avons prévu
           :
         </p>
@@ -171,16 +170,16 @@ export default function Home() {
           </li>
 
           <li className="my-4">
-            ☀️ N&apos;hésitez pas à venir en short si ça vous dit, il fait chaud
+            ☀️ N&apos;hésitez pas à venir en short si ça vous dit, il fait chaud par
             ici !
           </li>
 
           <li className="my-4">
-            🍷 Nous dégusterons des mets et des vins de notre belle région.
+            🍷 Nous vous servirons des plats et des vins de notre belle région.
           </li>
 
           <li className="my-4">
-            🕺 Dansez ou profitez au calme de la vue depuis notre balcon.
+            🕺 Dansez sur nos musiques préférées ou profitez au calme de la vue depuis notre balcon.
           </li>
 
           <li className="my-4">
@@ -188,7 +187,7 @@ export default function Home() {
           </li>
 
           <li className="my-4">
-            ⏰ La musique s&apos;éteindra à partir de 20:00 pour ne pas géner
+            ⏰ La musique s&apos;arrêtera à partir de 20:00 pour ne pas géner
             les voisins, mais restez aussi longtemps que vous le souhaitez !
           </li>
 
@@ -225,7 +224,7 @@ export default function Home() {
         <p>
           <strong>Lundi 28 juillet 2025</strong>
           <br />
-          Rally culturel avec un déjeuner dans une ferme aux canards et une
+          Rally culturel avec déjeuner dans une ferme aux canards et une
           dégustation de vins.
         </p>
 
@@ -239,7 +238,7 @@ export default function Home() {
           <strong>Mercredi 30 juillet 2025</strong>
           <br />
           Tour sur le marché de Sarlat, suivi d&apos;un “bring your own” apéro à
-          la maison pour partager ce que nous aurons acheté.
+          la maison pour partager les bonnes choses que nous aurons achetées.
         </p>
 
         <p>
@@ -269,10 +268,10 @@ export default function Home() {
             <p>
               La fête aura lieu chez nous à l&apos;adresse{" "}
               <a href="https://maps.app.goo.gl/a2ex17CEi1Gz9Xe56">
-                13 Côte de Ravat in Sarlat-la-Canéda
+                13 Côte de Ravat à Sarlat-la-Canéda
               </a>
-              . Nous habitons à 5 minutes du centre médiéval et à 12 heures des
-              Pays-Bas.
+              . Nous habitons à 5 minutes du centre médiéval, à 4 heures de Pau et à 9 heures de
+              Bruxelles.
             </p>
 
             <p>
@@ -341,12 +340,12 @@ export default function Home() {
           <p>
             <a href="https://domainederavat.fr/">Domaine de Ravat</a>
             <br />
-            Hotel à 3 minutes à pied
+            Hôtel à 3 minutes à pied
           </p>
           <p>
             <a href="https://www.hotel-sarlat.com/">Hotel de la Pagézie</a>
             <br />
-            Hotel à 10 minutes à pied
+            Hôtel à 10 minutes à pied
           </p>
           <p>
             <a href="https://www.aire-service-camping-car-panoramique.fr/dordogne/24-sarlat-la-caneda">
@@ -388,8 +387,7 @@ export default function Home() {
         <div className="content text-center lg:w-1/2 lg:text-left">
           <h2>Vous venez aussi ?</h2>
           <p>
-            Nous avons déjà hâte ! Merci de nous informer de votre venue à la
-            fête, si vous souhaitez rester dormir et si vous participerez à la
+            Nous avons déjà hâte ! Merci de nous informer de votre venue ou non, si vous souhaitez rester dormir et si vous participerez à la
             semaine qui suivra la fête. Merci de renseigner ce formulaire :
           </p>
 
@@ -424,19 +422,19 @@ export default function Home() {
 
           <p>
             Merci de nous faire savoir avant le <strong>1 novembre 2024</strong>{" "}
-            si vous serez présents afin que nous puissions en tenir compte lors
+            si vous serez présents, afin que nous puissions en tenir compte lors
             des préparatifs.
           </p>
 
           <p>
-            Groetjes,
+            A bientôt,
             <br />
-            Hannah, Sjoerd, David en Lucas ❤️
+            Hannah, Sjoerd, David et Lucas ❤️
           </p>
 
           <p>
             <i>
-              p.s. <a href="tel:+33632004114">Appelez-nous</a> ou{" "}
+              p.s. <a href="tel:+33632004114">appelez-nous</a> ou{" "}
               <a href="mailto:bonjour@maison1870.com">envoyez un email</a> si
               vous avez des questions !
             </i>
