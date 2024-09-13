@@ -199,7 +199,7 @@ export default function Home() {
           </li>
 
           <li className="my-4">
-            🎉 Als je het leuk vindt, mag je hele week blijven en meedoen met
+            🎉 Als je het leuk vindt, mag je de hele week blijven en meedoen met
             leuke activiteiten!
           </li>
         </ul>
@@ -245,7 +245,7 @@ export default function Home() {
         <p>
           <strong>Dondedag 31 juli 2025</strong>
           <br />
-          In de bomen klimmen bij “La Foret des Ecureuils” (volwassenen € 20,
+          In de bomen klimmen bij “La Forêt des Ecureuils” (volwassenen € 20,
           kinderen € 15).
         </p>
 
@@ -391,9 +391,9 @@ export default function Home() {
         </div>
 
         <div className="content text-center lg:w-1/2 lg:text-left">
-          <h2>Zijn jullie er bij?</h2>
+          <h2>Zijn jullie erbij?</h2>
           <p>
-            Wij hebben er nu al zin in! We horen graag of jullie er bij zijn,
+            Wij hebben er nu al zin in! We horen graag of jullie erbij zijn,
             willen blijven slapen en mee willen doen met de Hannah & Sjoerd
             feestweek. Hiervoor kan je het formuliertje achter deze link
             gebruiken:
@@ -425,11 +425,11 @@ export default function Home() {
                 d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
               />
             </svg>
-            Laat weten of je er bij bent
+            Laat weten of je erbij bent
           </Link>
 
           <p>
-            We horen graag voor <strong>1 november 2024</strong> of je er bij
+            We horen graag voor <strong>1 november 2024</strong> of je erbij
             bent, zodat we hier rekening mee kunnen houden tijdens de
             voorbereidingen.
           </p>

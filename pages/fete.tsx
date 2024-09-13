@@ -155,10 +155,10 @@ export default function Home() {
           10 ans de mariage !
         </h2>
         <p>
-          En juillet 2025 nous fêterons nos 10 ans de mariage et nous aimerions fêter ce moment important avec vous.
-          Nous vous invitons donc à notre fête le{" "}
-          <strong>samedi 26 juillet 2025</strong>. Voici ce que nous avons prévu
-          :
+          En juillet 2025 nous fêterons nos 10 ans de mariage et nous aimerions
+          fêter ce moment important avec vous. Nous vous invitons donc à notre
+          fête le <strong>samedi 26 juillet 2025</strong>. Voici ce que nous
+          avons prévu :
         </p>
         <ul>
           <li className="my-4">
@@ -170,8 +170,8 @@ export default function Home() {
           </li>
 
           <li className="my-4">
-            ☀️ N&apos;hésitez pas à venir en short si ça vous dit, il fait chaud par
-            ici !
+            ☀️ N&apos;hésitez pas à venir en short si ça vous dit, il fait chaud
+            par ici !
           </li>
 
           <li className="my-4">
@@ -179,7 +179,8 @@ export default function Home() {
           </li>
 
           <li className="my-4">
-            🕺 Dansez sur nos musiques préférées ou profitez au calme de la vue depuis notre balcon.
+            🕺 Dansez sur nos musiques préférées ou profitez au calme de la vue
+            depuis notre balcon.
           </li>
 
           <li className="my-4">
@@ -206,7 +207,7 @@ export default function Home() {
       <Gallery prefix="party/" />
 
       <Content>
-        <h2>La semaine de fête de Hannah & Sjoerd !</h2>
+        <h2>La semaine de fête de Hannah&nbsp;&amp;&nbsp;Sjoerd !</h2>
         <p>
           Nous savons que beaucoup d&apos;entre vous viendront de loin et nous
           avons donc prévu de prolonger la fête sur la semaine qui suivra. Vous
@@ -270,8 +271,8 @@ export default function Home() {
               <a href="https://maps.app.goo.gl/a2ex17CEi1Gz9Xe56">
                 13 Côte de Ravat à Sarlat-la-Canéda
               </a>
-              . Nous habitons à 5 minutes du centre médiéval, à 4 heures de Pau et à 9 heures de
-              Bruxelles.
+              . Nous habitons à 5 minutes du centre médiéval, à 4 heures de Pau
+              et à 9 heures de Bruxelles.
             </p>
 
             <p>
@@ -318,10 +319,10 @@ export default function Home() {
           <h3>Rester dormir</h3>
           <p>
             Nous aurons quelques places pour les adultes. Merci de nous dire
-            rapidement si vous souhaitez rester dormir et nous verrons ce qui
-            sera possible. Nous n&apos;aurons surement pas assez de lits pour
-            tout le monde, peut-être que certains devront amener leur sac de
-            couchage et tapis de sol.
+            rapidement si vous souhaitez rester dormir et pendant combien de
+            nuits, nous verrons ce qui sera possible. Nous n&apos;aurons
+            surement pas assez de lits pour tout le monde, peut-être que
+            certains devront amener leur sac de couchage et tapis de sol.
           </p>
 
           <h3>Autres options pour rester dormir</h3>
@@ -387,8 +388,9 @@ export default function Home() {
         <div className="content text-center lg:w-1/2 lg:text-left">
           <h2>Vous venez aussi ?</h2>
           <p>
-            Nous avons déjà hâte ! Merci de nous informer de votre venue ou non, si vous souhaitez rester dormir et si vous participerez à la
-            semaine qui suivra la fête. Merci de renseigner ce formulaire :
+            Nous avons déjà hâte ! Merci de nous informer de votre venue ou non,
+            si vous souhaitez rester dormir et si vous participerez à la semaine
+            qui suivra la fête. Merci de renseigner ce formulaire :
           </p>
 
           <Link
