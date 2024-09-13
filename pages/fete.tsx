@@ -132,12 +132,12 @@ export default function Home() {
               viewBox="0 0 24 24"
               strokeWidth={2}
               stroke="currentColor"
-              className="mr-1.5 h-5 w-5"
+              className="mr-1.5 h-4 w-4"
             >
               <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
               />
             </svg>
             Inscrivez-vous !
@@ -411,12 +411,12 @@ export default function Home() {
               viewBox="0 0 24 24"
               strokeWidth={2}
               stroke="currentColor"
-              className="mr-1.5 h-5 w-5"
+              className="mr-1.5 h-4 w-4"
             >
               <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
               />
             </svg>
             Faites-nous savoir si vous serez présents
