@@ -1,7 +1,9 @@
+import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
+
 import Analytics from "@/components/Analytics";
-import Content from "@/components/Content";
 import Head from "next/head";
 import Wrap from "@/components/Wrap";
+import dynamic from "next/dynamic";
 import { useState } from "react";
 
 export default function Home() {
@@ -9,14 +11,15 @@ export default function Home() {
   const [language, setLanguage] = useState("nl");
   const [score, setScore] = useState(0);
 
-  const questions = [
+  const questions: any = [
     {
+      location: [44.58155, 1.12236],
       nl: (
         <>
           <p className="!mb-1 font-sans text-base font-bold uppercase tracking-wider text-emerald-400">
             Hannah &amp; Sjoerd&apos;s
           </p>
-          <h1 className="text-5xl">Culture autorally</h1>
+          <h1 className="text-5xl">Culture rally</h1>
           <p>
             Welkom bij de &ldquo;Hannah &amp; Sjoerd&rdquo; culturele autorally!
             En doldwaas avontuur langs onze favoriete plekken in de buurt.
@@ -88,7 +91,7 @@ export default function Home() {
       nl: (
         <>
           <h1>Vraag 1</h1>
-          <p>Welk typisch Nederlandse product wordt hier verkocht?</p>
+          <p>Ga naar de bovenstaande locatie.</p>
         </>
       ),
       fr: (
@@ -100,6 +103,10 @@ export default function Home() {
       answers: ["poffertjes"],
     },
   ];
+
+  const OpenStreetMap = dynamic(() => import("@/components/OpenStreetMap"), {
+    ssr: false,
+  });
 
   return (
     <>
@@ -144,10 +151,13 @@ export default function Home() {
               </a>
             )}
           </div>
+
+          <OpenStreetMap location={questions[question].location} />
+
           <div className="content rounded-xl bg-white p-10 shadow-xl">
             {language == "nl" ? questions[question].nl : questions[question].fr}
 
-            <form></form>
+            <form>[form]</form>
           </div>
 
           <a
