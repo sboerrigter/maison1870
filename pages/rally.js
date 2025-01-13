@@ -3,7 +3,7 @@ import dynamic from "next/dynamic";
 import { useState } from "react";
 
 export default function Home() {
-  const [question, setQuestion] = useState(0);
+  const [question, setQuestion] = useState(16);
   const [language, setLanguage] = useState("nl");
   const [score, setScore] = useState(0);
   const [answer, setAnswer] = useState("");
@@ -89,7 +89,7 @@ export default function Home() {
     {
       nl: (
         <>
-          <h2 className="text-4xl">Locatie 1</h2>
+          <h2 className="text-4xl">Locatie {question}</h2>
           <p>Ga naar de bovenstaande locatie.</p>
           <p>
             We komen regelmatig bij de Carrefour Market om boodschappen te doen.
@@ -98,17 +98,13 @@ export default function Home() {
           </p>
         </>
       ),
-      fr: (
-        <>
-          <p>@todo</p>
-        </>
-      ),
+      fr: <p>@todo</p>,
       answers: ["bricomarche", "bricomarché"],
     },
     {
       nl: (
         <>
-          <h2 className="text-4xl">Locatie 2</h2>
+          <h2 className="text-4xl">Locatie {question}</h2>
           <p>
             Op de volgende locatie vind je één van de belangrijke voorzieningen
             van Sarlat. Één keer per jaar wordt hier ook een groot feest
@@ -123,18 +119,99 @@ export default function Home() {
           </p>
         </>
       ),
-      fr: (
-        <>
-          <p>@todo</p>
-        </>
-      ),
+      fr: <p>@todo</p>,
       answers: ["bier", "biere", "bière"],
     },
     {
       nl: (
         <>
-          <h2 className="text-4xl">Locatie 3</h2>
+          <h2 className="text-4xl">Locatie {question}</h2>
           <p>@todo parc du plantier</p>
+          <p>Antwoord: test</p>
+        </>
+      ),
+      fr: <p>@todo</p>,
+      answers: ["test"],
+    },
+    {
+      nl: (
+        <>
+          <h2 className="text-4xl">Locatie {question}</h2>
+          <p>
+            Deze locatie heette vroeger "Les Tilleuls", vanwege de linde bomen
+            die hier staan. Maar er staan nog bomen van een andere soort.
+            Hoeveel en welke soort?
+          </p>
+          <p>Antwoord: test</p>
+        </>
+      ),
+      fr: <p>@todo</p>,
+      answers: ["test"],
+    },
+    {
+      nl: (
+        <>
+          <h2 className="text-4xl">Locatie {question}</h2>
+          <p>Welk typisch Nederlandse product wordt hier verkocht?</p>
+        </>
+      ),
+      fr: <p>@todo</p>,
+      answers: ["poffertjes"],
+    },
+    {
+      nl: (
+        <>
+          <h2 className="text-4xl">Locatie {question}</h2>
+          <p>Hier gaan we lekker rekenen!</p>
+          <ul>
+            <li>A = het getal dat je hier ziet.</li>
+            <li>B = het geboortejaar van zowel Hannah als Sjoerd.</li>
+            <li>C = het nummer van het departement waar je je nu bevindt.</li>
+          </ul>
+          <p>Bereken: B + C * A</p>
+        </>
+      ),
+      fr: <p>@todo</p>,
+      answers: ["test"],
+    },
+    {
+      nl: (
+        <>
+          <h2 className="text-4xl">Locatie {question}</h2>
+          <p>@todo strandje</p>
+          <p>Antwoord: test</p>
+        </>
+      ),
+      fr: <p>@todo</p>,
+      answers: ["test"],
+    },
+    {
+      nl: (
+        <>
+          <h2 className="text-4xl">Locatie {question}</h2>
+          <p>@todo Eendenboerderij lunch</p>
+          <p>Antwoord: test</p>
+        </>
+      ),
+      fr: <p>@todo</p>,
+      answers: ["test"],
+    },
+    {
+      nl: (
+        <>
+          <h2 className="text-4xl">Locatie {question}</h2>
+          <p>@todo Dechetterie</p>
+          <p>Antwoord: test</p>
+        </>
+      ),
+      fr: <p>@todo</p>,
+      answers: ["test"],
+    },
+    {
+      nl: (
+        <>
+          <h2 className="text-4xl">Locatie {question}</h2>
+          <p>@todo Saint andré d'allas</p>
           <p>Antwoord: test</p>
         </>
       ),
@@ -148,10 +225,11 @@ export default function Home() {
     {
       nl: (
         <>
-          <h2 className="text-4xl">Locatie 4</h2>
+          <h2 className="text-4xl">Locatie {question}</h2>
           <p>
-            Deze locatie heette vroeger "Les Tilleuls" vanwege de linde bomen
-            die hier staan. Maar er staan nog meer platanen. Hoeveel?
+            Hier kijk je uit over de prachtige Dordogne vallei. Vanaf dit punt
+            kan je vier van de vele kastelen zien. Maar hoeveel rode driehoeken
+            zie je hier?
           </p>
           <p>Antwoord: test</p>
         </>
@@ -166,22 +244,8 @@ export default function Home() {
     {
       nl: (
         <>
-          <h2 className="text-4xl">Locatie 5</h2>
-          <p>Welk typisch Nederlandse product wordt hier verkocht?</p>
-        </>
-      ),
-      fr: (
-        <>
-          <p>@todo</p>
-        </>
-      ),
-      answers: ["poffertjes"],
-    },
-    {
-      nl: (
-        <>
-          <h2 className="text-4xl">Locatie 6</h2>
-          <p>@todo dat bordje</p>
+          <h2 className="text-4xl">Locatie {question}</h2>
+          <p>@todo La Roque Gageac</p>
           <p>Antwoord: test</p>
         </>
       ),
@@ -195,8 +259,8 @@ export default function Home() {
     {
       nl: (
         <>
-          <h2 className="text-4xl">Locatie 7</h2>
-          <p>@todo strandje</p>
+          <h2 className="text-4xl">Locatie {question}</h2>
+          <p>@todo Domme</p>
           <p>Antwoord: test</p>
         </>
       ),
@@ -210,8 +274,38 @@ export default function Home() {
     {
       nl: (
         <>
-          <h2 className="text-4xl">Locatie 8</h2>
-          <p>@todo Eendenboerderij lunch</p>
+          <h2 className="text-4xl">Locatie {question}</h2>
+          <p>@todo ??</p>
+          <p>Antwoord: test</p>
+        </>
+      ),
+      fr: (
+        <>
+          <p>@todo</p>
+        </>
+      ),
+      answers: ["test"],
+    },
+    {
+      nl: (
+        <>
+          <h2 className="text-4xl">Locatie {question}</h2>
+          <p>@todo Tour de Moncalou</p>
+          <p>Antwoord: test</p>
+        </>
+      ),
+      fr: (
+        <>
+          <p>@todo</p>
+        </>
+      ),
+      answers: ["test"],
+    },
+    {
+      nl: (
+        <>
+          <h2 className="text-4xl">Locatie {question}</h2>
+          <p>@todo Vin de Domme</p>
           <p>Antwoord: test</p>
         </>
       ),
@@ -235,7 +329,7 @@ export default function Home() {
       setScore(score + 10);
       setShowError(false);
       setAnswer("");
-      setQuestion(question + 1);
+      setQuestion(question);
     } else {
       setScore(score - 1);
       setShowError(true);
