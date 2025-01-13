@@ -138,9 +138,9 @@ export default function Home() {
         <>
           <h2 className="text-4xl">Locatie {question}</h2>
           <p>
-            Deze locatie heette vroeger "Les Tilleuls", vanwege de linde bomen
-            die hier staan. Maar er staan nog bomen van een andere soort.
-            Hoeveel en welke soort?
+            Deze locatie heette vroeger &ldquo;Les Tilleuls&rdquo;, vanwege de
+            linde bomen die hier staan. Maar er staan nog bomen van een andere
+            soort. Hoeveel en welke soort?
           </p>
           <p>Antwoord: test</p>
         </>
@@ -211,7 +211,7 @@ export default function Home() {
       nl: (
         <>
           <h2 className="text-4xl">Locatie {question}</h2>
-          <p>@todo Saint andré d'allas</p>
+          <p>@todo Saint andré dallas</p>
           <p>Antwoord: test</p>
         </>
       ),
@@ -385,6 +385,8 @@ export default function Home() {
                   ? "Helaas, dat is fout. Dat kost jullie een punt!"
                   : "Helaas dat was fout. Dat kost je een punt!"}
               </div>
+
+              {/* @todo hier moet ik toch een form van maken zodat die kaart niet zo knippert als je typt */}
 
               <input
                 className="border border-gray-300 w-full p-2 rounded"
