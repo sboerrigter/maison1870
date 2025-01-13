@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Wrap from "@/components/Wrap";
 import dynamic from "next/dynamic";
 import { useState } from "react";
 
@@ -18,7 +17,7 @@ export default function Home() {
           <p className="!mb-1 font-sans text-base font-bold uppercase tracking-wider text-emerald-400">
             Hannah &amp; Sjoerd&apos;s
           </p>
-          <h2 className="text-5xl">Culture rally</h2>
+          <h1 className="text-5xl">Culture rally</h1>
           <p>
             Welkom bij de &ldquo;Hannah &amp; Sjoerd&rdquo; culturele autorally!
             En doldwaas avontuur langs onze favoriete plekken in de buurt.
@@ -52,29 +51,30 @@ export default function Home() {
           <p className="!mb-1 font-sans text-base font-bold uppercase tracking-wider text-emerald-400">
             Hannah &amp; Sjoerd&apos;s
           </p>
-          <h2 className="text-5xl">Rally culturel</h2>
+          <h1 className="text-5xl">Rally culturel</h1>
           <p>
             Bienvenue au rallye culturel automobile de Hannah et Sjoerd&rdquo; !
             Et une folle aventure le long de nos lieux préférés dans la région.
           </p>
 
           <p>
-            Aujourd'hui, vous allez parcourir un itinéraire en passant par
+            Aujourd&apos;hui, vous allez parcourir un itinéraire en passant par
             plusieurs points. À chaque point, vous devez répondre à une
             question. Si vous répondez correctement à la question vous
-            obtiendrez 5 points et l'emplacement de la question suivante. Mais
-            si vous répondez incorrectement à une question, vous perdrez un
+            obtiendrez 5 points et l&apos;emplacement de la question suivante.
+            Mais si vous répondez incorrectement à une question, vous perdrez un
             point.
           </p>
 
           <p>
-            Si vous n'y arrivez vraiment pas, vous pouvez aussi appeler un
-            service d'assistance téléphonique. Mais cela vous coûtera 10 points.
+            Si vous n&apos;y arrivez vraiment pas, vous pouvez aussi appeler un
+            service d&apos;assistance téléphonique. Mais cela vous coûtera 10
+            points.
           </p>
 
           <p>
-            L'équipe ayant le plus de points à la fin de la journée remporte la
-            gloire éternelle !
+            L&apos;équipe ayant le plus de points à la fin de la journée
+            remporte la gloire éternelle !
           </p>
 
           <p>
@@ -89,12 +89,12 @@ export default function Home() {
     {
       nl: (
         <>
-          <h2>Carrefour Market</h2>
+          <h2 className="text-4xl">Carrefour Market</h2>
           <p>Ga naar de bovenstaande locatie.</p>
           <p>
             We komen regelmatig bij de Carrefour Market om boodschappen te doen.
-            Maar welke winkel denken jullie dat we de afgelopen twee jaar bijna
-            net zo vaak bezocht hebben?
+            Maar welke winkel in de buurt denken jullie dat we de afgelopen drie
+            jaar bijna net zo vaak hebben bezocht?
           </p>
         </>
       ),
@@ -108,7 +108,7 @@ export default function Home() {
     {
       nl: (
         <>
-          <h2>Proissans</h2>
+          <h2 className="text-4xl">Proissans</h2>
           <p>Welk typisch Nederlandse product wordt hier verkocht?</p>
         </>
       ),
@@ -149,7 +149,7 @@ export default function Home() {
       </Head>
 
       <div className="min-h-screen bg-emerald-50 pb-5">
-        <Wrap className="max-w-screen-xs">
+        <div className="mx-auto w-full px-5 max-w-screen-xs">
           <div className="flex justify-between py-5 text-sm font-bold uppercase">
             <div className="flex-none rounded-full bg-emerald-900 px-4 py-2 font-mono text-white">
               Score: {score}
@@ -212,9 +212,9 @@ export default function Home() {
           >
             {language == "nl"
               ? "Hulplijn inschakelen (- 10 punten)"
-              : "Service d'assistance (- 10 points)"}
+              : "Service d&apos;assistance (- 10 points)"}
           </a>
-        </Wrap>
+        </div>
       </div>
     </>
   );
