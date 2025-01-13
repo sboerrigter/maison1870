@@ -1,6 +1,3 @@
-import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
-
-import Analytics from "@/components/Analytics";
 import Head from "next/head";
 import Wrap from "@/components/Wrap";
 import dynamic from "next/dynamic";
@@ -10,8 +7,10 @@ export default function Home() {
   const [question, setQuestion] = useState(0);
   const [language, setLanguage] = useState("nl");
   const [score, setScore] = useState(0);
+  const [answer, setAnswer] = useState("");
+  const [showError, setShowError] = useState(false);
 
-  const questions: any = [
+  const questions = [
     {
       location: [44.58155, 1.12236],
       nl: (
@@ -19,7 +18,7 @@ export default function Home() {
           <p className="!mb-1 font-sans text-base font-bold uppercase tracking-wider text-emerald-400">
             Hannah &amp; Sjoerd&apos;s
           </p>
-          <h1 className="text-5xl">Culture rally</h1>
+          <h2 className="text-5xl">Culture rally</h2>
           <p>
             Welkom bij de &ldquo;Hannah &amp; Sjoerd&rdquo; culturele autorally!
             En doldwaas avontuur langs onze favoriete plekken in de buurt.
@@ -53,7 +52,7 @@ export default function Home() {
           <p className="!mb-1 font-sans text-base font-bold uppercase tracking-wider text-emerald-400">
             Hannah &amp; Sjoerd&apos;s
           </p>
-          <h1 className="text-5xl">Rally culturel</h1>
+          <h2 className="text-5xl">Rally culturel</h2>
           <p>
             Bienvenue au rallye culturel automobile de Hannah et Sjoerd&rdquo; !
             Et une folle aventure le long de nos lieux préférés dans la région.
@@ -90,14 +89,32 @@ export default function Home() {
     {
       nl: (
         <>
-          <h1>Vraag 1</h1>
+          <h2>Carrefour Market</h2>
           <p>Ga naar de bovenstaande locatie.</p>
+          <p>
+            We komen regelmatig bij de Carrefour Market om boodschappen te doen.
+            Maar welke winkel denken jullie dat we de afgelopen twee jaar bijna
+            net zo vaak bezocht hebben?
+          </p>
         </>
       ),
       fr: (
         <>
-          <h1>Question 10</h1>
+          <p>@todo</p>
+        </>
+      ),
+      answers: ["bricomarche", "bricomarché"],
+    },
+    {
+      nl: (
+        <>
+          <h2>Proissans</h2>
           <p>Welk typisch Nederlandse product wordt hier verkocht?</p>
+        </>
+      ),
+      fr: (
+        <>
+          <p>@todo</p>
         </>
       ),
       answers: ["poffertjes"],
@@ -108,6 +125,20 @@ export default function Home() {
     ssr: false,
   });
 
+  function submit(event) {
+    event.preventDefault();
+
+    if (questions[question].answers.includes(answer.toLowerCase())) {
+      setScore(score + 10);
+      setShowError(false);
+      setAnswer("");
+      setQuestion(question + 1);
+    } else {
+      setScore(score - 1);
+      setShowError(true);
+    }
+  }
+
   return (
     <>
       <Head>
@@ -115,17 +146,6 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="noindex" />
         <link rel="icon" href="/favicon.ico" />
-        <link
-          key="preconnect-ga"
-          rel="preconnect"
-          href="https://www.google-analytics.com"
-        />
-        <link
-          key="preconnect-gtm"
-          rel="preconnect"
-          href="https://www.googletagmanager.com"
-        />
-        <Analytics />
       </Head>
 
       <div className="min-h-screen bg-emerald-50 pb-5">
@@ -157,7 +177,32 @@ export default function Home() {
           <div className="content rounded-xl bg-white p-10 shadow-xl">
             {language == "nl" ? questions[question].nl : questions[question].fr}
 
-            <form>[form]</form>
+            <div className="flex flex-col gap-4">
+              <div
+                className={`
+                bg-rose-600 text-white p-3 rounded
+                ${showError ? "visible" : "hidden"}
+              `}
+              >
+                {language == "nl"
+                  ? "Helaas, dat is fout. Dat kost jullie een punt!"
+                  : "Helaas dat was fout. Dat kost je een punt!"}
+              </div>
+
+              <input
+                className="border border-gray-300 w-full p-2 rounded"
+                type="text"
+                onChange={(e) => setAnswer(e.target.value)}
+                value={answer}
+              />
+
+              <button
+                className=" bg-emerald-400 hover:bg-emerald-500 !text-white font-semibold !no-underline inline-flex items-center justify-center px-8 py-3 rounded-full shadow-lg shadow-emerald-500/50"
+                onClick={(event) => submit(event)}
+              >
+                Submit
+              </button>
+            </div>
           </div>
 
           <a
