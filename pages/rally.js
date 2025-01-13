@@ -133,7 +133,40 @@ export default function Home() {
     {
       nl: (
         <>
-          <h2 className="text-4xl">Proissans</h2>
+          <h2 className="text-4xl">Locatie 3</h2>
+          <p>@todo parc du plantier</p>
+          <p>Antwoord: test</p>
+        </>
+      ),
+      fr: (
+        <>
+          <p>@todo</p>
+        </>
+      ),
+      answers: ["test"],
+    },
+    {
+      nl: (
+        <>
+          <h2 className="text-4xl">Locatie 4</h2>
+          <p>
+            Deze locatie heette vroeger "Les Tilleuls" vanwege de linde bomen
+            die hier staan. Maar er staan nog meer platanen. Hoeveel?
+          </p>
+          <p>Antwoord: test</p>
+        </>
+      ),
+      fr: (
+        <>
+          <p>@todo</p>
+        </>
+      ),
+      answers: ["test"],
+    },
+    {
+      nl: (
+        <>
+          <h2 className="text-4xl">Locatie 5</h2>
           <p>Welk typisch Nederlandse product wordt hier verkocht?</p>
         </>
       ),
@@ -143,6 +176,51 @@ export default function Home() {
         </>
       ),
       answers: ["poffertjes"],
+    },
+    {
+      nl: (
+        <>
+          <h2 className="text-4xl">Locatie 6</h2>
+          <p>@todo dat bordje</p>
+          <p>Antwoord: test</p>
+        </>
+      ),
+      fr: (
+        <>
+          <p>@todo</p>
+        </>
+      ),
+      answers: ["test"],
+    },
+    {
+      nl: (
+        <>
+          <h2 className="text-4xl">Locatie 7</h2>
+          <p>@todo strandje</p>
+          <p>Antwoord: test</p>
+        </>
+      ),
+      fr: (
+        <>
+          <p>@todo</p>
+        </>
+      ),
+      answers: ["test"],
+    },
+    {
+      nl: (
+        <>
+          <h2 className="text-4xl">Locatie 8</h2>
+          <p>@todo Eendenboerderij lunch</p>
+          <p>Antwoord: test</p>
+        </>
+      ),
+      fr: (
+        <>
+          <p>@todo</p>
+        </>
+      ),
+      answers: ["test"],
     },
   ];
 
