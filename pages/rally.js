@@ -89,7 +89,7 @@ export default function Home() {
     {
       nl: (
         <>
-          <h2 className="text-4xl">Carrefour Market</h2>
+          <h2 className="text-4xl">Locatie 1</h2>
           <p>Ga naar de bovenstaande locatie.</p>
           <p>
             We komen regelmatig bij de Carrefour Market om boodschappen te doen.
@@ -104,6 +104,31 @@ export default function Home() {
         </>
       ),
       answers: ["bricomarche", "bricomarché"],
+    },
+    {
+      nl: (
+        <>
+          <h2 className="text-4xl">Locatie 2</h2>
+          <p>
+            Op de volgende locatie vind je één van de belangrijke voorzieningen
+            van Sarlat. Één keer per jaar wordt hier ook een groot feest
+            gegeven. Wat wordt er dan verkocht om om geld in te zamelen?
+          </p>
+          <p>
+            Hint: Het antwoord is te zien in{" "}
+            <a href="https://www.youtube.com/watch?v=kDNANhftmaQ">
+              BonSjoerd aflevering 12
+            </a>
+            .
+          </p>
+        </>
+      ),
+      fr: (
+        <>
+          <p>@todo</p>
+        </>
+      ),
+      answers: ["bier", "biere", "bière"],
     },
     {
       nl: (
