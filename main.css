@@ -3,15 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-  html {
-    @apply font-sans antialiased;
-    @apply text-gray-500;
-  }
-
-  body {
-    @apply overflow-x-hidden;
-  }
-
   h1,
   h2,
   h3,

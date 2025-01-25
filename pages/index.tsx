@@ -67,46 +67,48 @@ export default function Home() {
       <Region />
       <Hosts />
       <Languages />
-      <Content>
+      <Content id="booking">
         <h2>
           Availabillity <span className="font-serif">&amp;</span> bookings
         </h2>
         <p>
-          You can find our holiday apartment on{" "}
+          You can view the current availability of the apartment in the calendar
+          below. After selecting the desired dates, you can check the prices and
+          book your stay.
+        </p>
+
+        <p>
+          You can also find us on other websites like{" "}
           <a
             href="https://www.airbnb.com/rooms/781840949977429677"
             target="_blank"
             rel="noreferrer nofollow"
           >
             Airbnb
-          </a>
-          ,{" "}
+          </a>{" "}
+          and{" "}
           <a
             href="https://www.booking.com/hotel/fr/private-studio-in-150-year-old-villa.en-gb.html"
             target="_blank"
             rel="noreferrer nofollow"
           >
             Booking.com
-          </a>{" "}
-          and{" "}
+          </a>
+          , but booking there will probably be more expensive due to their
+          commissions. You can book via{" "}
           <a
-            href="https://www.gites.com/en/for-rent/nouvelle-aquitaine/dordogne/sarlat/prive-studio-in-150-jaar-oude-villa-20736"
+            href="https://www.cybevasion.fr/gites-private-studio-in-150-year-old-villa-sarlat-la-caneda-e95833.html"
             target="_blank"
             rel="noreferrer nofollow"
           >
-            Gites.com
-          </a>
-          . You can see the current availability on all of those platfoms. We
-          recommend booking via Gites.com because that platform has the lowest
-          commission and is therefore the cheapest.
+            Cybevasion.fr
+          </a>{" "}
+          if you want to pay with "Chèques-Vacances".
         </p>
-
-        <p>
-          We also accept Chèques-Vacances Classic and Chèques-Vacances Connect,
-          please <a href="mailto:bonjour@maison1870.com">contact us</a> if you
-          wish to pay with Chèques-Vacances.
-        </p>
-        <Button />
+        <iframe
+          src="https://w.hostexbooking.site/widget/106914?site_type=1&host_id=101781&listing_id=106914&enabled=1"
+          className="border border-gray-200 rounded-lg min-h-[800px] w-full mt-16"
+        ></iframe>
       </Content>
       <Footer />
     </>
