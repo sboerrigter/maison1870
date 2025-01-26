@@ -2,7 +2,7 @@ import Wrap from "@/components/Wrap";
 
 export default function Content({
   children,
-  id,
+  id = undefined,
 }: {
   children: React.ReactNode;
   id: string | undefined;
