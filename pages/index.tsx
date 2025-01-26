@@ -95,15 +95,8 @@ export default function Home() {
             Booking.com
           </a>
           , but booking there will probably be more expensive due to their
-          commissions. You can book via{" "}
-          <a
-            href="https://www.cybevasion.fr/gites-private-studio-in-150-year-old-villa-sarlat-la-caneda-e95833.html"
-            target="_blank"
-            rel="noreferrer nofollow"
-          >
-            Cybevasion.fr
-          </a>{" "}
-          if you want to pay with "Chèques-Vacances".
+          commissions. Please contact us if you want to pay with
+          "Chèques-Vacances".
         </p>
         <iframe
           src="https://w.hostexbooking.site/widget/106914?site_type=1&host_id=101781&listing_id=106914&enabled=1"
