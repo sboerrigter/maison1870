@@ -13,7 +13,7 @@ export default function Hosts() {
             alt="Your hosts Hannah & Sjoerd"
             className="rounded-full shadow"
             height={480}
-            src="/photos/hannah-sjoerd.jpg"
+            src="/photos/hosts.jpg"
             width={480}
           />
         </div>
