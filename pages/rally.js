@@ -407,11 +407,11 @@ export default function Home() {
           <a
             className="my-5 block w-full select-none rounded-full py-2 text-center text-sm font-bold uppercase text-emerald-500"
             href="tel:+31646277318"
-            onClick={() => setScore(score - 10)}
+            onClick={() => setScore(score - 5)}
           >
             {language == "nl"
-              ? "Hulplijn inschakelen (- 10 punten)"
-              : "Service d&apos;assistance (- 10 points)"}
+              ? "Hulplijn inschakelen (- 5 punten)"
+              : "Service d&apos;assistance (- 5 points)"}
           </a>
         </div>
       </div>
