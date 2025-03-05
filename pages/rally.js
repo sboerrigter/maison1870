@@ -3,7 +3,7 @@ import dynamic from "next/dynamic";
 import { useState } from "react";
 
 export default function Home() {
-  const [question, setQuestion] = useState(16);
+  const [question, setQuestion] = useState(0);
   const [language, setLanguage] = useState("nl");
   const [score, setScore] = useState(0);
   const [answer, setAnswer] = useState("");
@@ -329,7 +329,7 @@ export default function Home() {
       setScore(score + 10);
       setShowError(false);
       setAnswer("");
-      setQuestion(question);
+      setQuestion(question + 1);
     } else {
       setScore(score - 1);
       setShowError(true);
