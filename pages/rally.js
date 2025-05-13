@@ -8,7 +8,7 @@ export default function Rally() {
   const [question, setQuestion] = useState(0);
   const [language, setLanguage] = useState("nl");
   const [score, setScore] = useState(0);
-  const [showError, setShowError] = useState(false);
+  const [error, setError] = useState(false);
 
   // Load state from localStorage on component mount
   useEffect(() => {
@@ -197,19 +197,23 @@ export default function Rally() {
         </>
       ),
       fr: <p>@todo</p>,
-      answers: ["test"],
+      answers: ["6306"],
     },
     {
-      location: [44.96578813552195, 1.1620073280851817],
+      location: [44.966080302135694, 1.1612585663991821],
       nl: (
         <>
           <h2 className="text-4xl">Locatie {question}</h2>
-          <p>@todo strandje</p>
-          <p>Antwoord: test</p>
+          <p>
+            Op de volgende locatie moeten jullie op zoek naar Hannah en Sjoerd.
+            Als de klok 11 keer heeft geslagen moet je het geheime codewoord
+            "Doetje ma Boontak" noemen om een opdracht te ontvangen.
+          </p>
+          <p>Vul de oplossing van deze opdracht hieronder in.</p>
         </>
       ),
       fr: <p>@todo</p>,
-      answers: ["test"],
+      answers: ["la bonne vie en france"],
     },
     {
       location: [44.93544426749727, 1.1421611902007716],
@@ -362,13 +366,23 @@ export default function Rally() {
 
     const answer = event.target[0].value.toLowerCase();
 
-    if (questions[question].answers.includes(answer)) {
+    if (answer == "") {
+      setError(
+        language == "nl"
+          ? "Je moet natuurlijk wel iets invullen..."
+          : "Bien sûr, vous devez remplir quelque chose..."
+      );
+    } else if (questions[question].answers.includes(answer)) {
       setScore(score + 10);
-      setShowError(false);
+      setError(false);
       setQuestion(question + 1);
     } else {
       setScore(score - 1);
-      setShowError(true);
+      setError(
+        language == "nl"
+          ? "Helaas, dat is fout. Dat kost jullie een punt!"
+          : "Malheureusement, c'était une erreur. Cela vous coûtera un point !"
+      );
     }
 
     event.target[0].value = "";
@@ -431,12 +445,10 @@ export default function Rally() {
               <div
                 className={`
                 bg-rose-600 text-white p-3 rounded
-                ${showError ? "visible" : "hidden"}
+                ${error ? "visible" : "hidden"}
               `}
               >
-                {language == "nl"
-                  ? "Helaas, dat is fout. Dat kost jullie een punt!"
-                  : "Helaas dat was fout. Dat kost je een punt!"}
+                {error}
               </div>
 
               <input
