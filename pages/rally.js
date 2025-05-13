@@ -141,7 +141,15 @@ export default function Rally() {
         </>
       ),
       fr: <p>@todo</p>,
-      answers: ["bier", "biere", "bière"],
+      answers: [
+        "bier",
+        "biere",
+        "bière",
+        "drank",
+        "drinken",
+        "boissons",
+        "buvait",
+      ],
     },
     {
       location: [44.887917, 1.219869],
@@ -169,7 +177,7 @@ export default function Rally() {
         </>
       ),
       fr: <p>@todo</p>,
-      answers: ["test"],
+      answers: ["24 platanen", "24 platanes", "24 platane"],
     },
     {
       location: [44.933182, 1.252884],
@@ -205,11 +213,10 @@ export default function Rally() {
         <>
           <h2 className="text-4xl">Locatie {question}</h2>
           <p>
-            Op de volgende locatie moeten jullie op zoek naar Hannah en Sjoerd.
-            Als de klok 11 keer heeft geslagen moet je het geheime codewoord
-            "Doetje ma Boontak" noemen om een opdracht te ontvangen.
+            Tijd om even te relaxen en wat spelletjes te doen. Als de klok 11 en
+            een half keer heeft geslagen krijgen jullie van de spelleiding een
+            leuke puzzel. Wat is de oplossing?
           </p>
-          <p>Vul de oplossing van deze opdracht hieronder in.</p>
         </>
       ),
       fr: <p>@todo</p>,
@@ -220,52 +227,59 @@ export default function Rally() {
       nl: (
         <>
           <h2 className="text-4xl">Locatie {question}</h2>
-          <p>@todo Eendenboerderij lunch</p>
-          <p>Antwoord: test</p>
+
+          <p>
+            Veel Nederlands denken dat Foie Gras eenden zielig zijn. Maar kijk
+            hier eens wat een prachtig leven deze dieren hier hebben. Dus ga
+            lekker zitten en geniet zonder schuldgevoel van een heerlijke
+            maaltijd met lokale specialiteiten. Bon appétit!
+          </p>
+
+          <p>
+            Het hoofdingrediënt van het toetje is ook een lokale specialiteit.
+            Wat is dat?
+          </p>
         </>
       ),
       fr: <p>@todo</p>,
-      answers: ["test"],
+      answers: ["walnoot", "walnoten", "noix", "des noix"],
     },
     {
-      location: [44.90247, 1.211192],
-      nl: (
-        <>
-          <h2 className="text-4xl">Locatie {question}</h2>
-          <p>@todo Dechetterie</p>
-          <p>Antwoord: test</p>
-        </>
-      ),
-      fr: <p>@todo</p>,
-      answers: ["test"],
-    },
-    {
-      location: [44.90247, 1.211192],
-      nl: (
-        <>
-          <h2 className="text-4xl">Locatie {question}</h2>
-          <p>@todo Saint andré dallas</p>
-          <p>Antwoord: test</p>
-        </>
-      ),
-      fr: (
-        <>
-          <p>@todo</p>
-        </>
-      ),
-      answers: ["test"],
-    },
-    {
-      location: [44.90247, 1.211192],
+      location: [44.903273596791266, 1.190496638046599],
       nl: (
         <>
           <h2 className="text-4xl">Locatie {question}</h2>
           <p>
-            Hier kijk je uit over de prachtige Dordogne vallei. Vanaf dit punt
-            kan je vier van de vele kastelen zien. Maar hoeveel rode driehoeken
-            zie je hier?
+            Dit is ook een plek die wij de afgelopen jaren vaak bezocht hebben.
+            Gelukkig is dit hier gratis.
           </p>
-          <p>Antwoord: test</p>
+          <p>
+            Wat wordt hier niet geaccepteerd naast medicijnen, banden en
+            huishoudelijk afval?
+          </p>
+        </>
+      ),
+      fr: <p>@todo</p>,
+      answers: [
+        "radioactief afval",
+        "radioactive waste",
+        "déchets radioactifs",
+        "dechets radioactifs",
+      ],
+    },
+    {
+      location: [44.892639323126886, 1.1642579597006202],
+      nl: (
+        <>
+          <h2 className="text-4xl">Locatie {question}</h2>
+          <p>
+            Je vind hier een grote versie van een apparaat dat Hannah graag
+            gebruikt om de rest van ons gezin te verwennen.
+          </p>
+          <p>
+            Ze heeft ook meegewerkt aan vertalingen voor een bekende producent
+            van dit soort machines. Hoe heet die producent?
+          </p>
         </>
       ),
       fr: (
@@ -273,15 +287,141 @@ export default function Rally() {
           <p>@todo</p>
         </>
       ),
-      answers: ["test"],
+      answers: ["kitchenaid"],
+    },
+    {
+      location: [44.840465480937006, 1.1483590891533588],
+      nl: (
+        <>
+          <h2 className="text-4xl">Locatie {question}</h2>
+          <p>
+            Hier kijk je uit over de prachtige Dordogne vallei met haar vele
+            kastelen. Vanaf dit punt kan je er wel vijf zien: Château de Beynac,
+            Château de Frayrac, Château de Castelnaud-la-Chapelle, Château de
+            Lacoste en Château de Marqueyssac.
+          </p>
+          <p>Maar hoeveel rode driehoeken zie je hier?</p>
+        </>
+      ),
+      fr: (
+        <>
+          <p>@todo</p>
+        </>
+      ),
+      answers: ["85"],
+    },
+    {
+      location: [44.82626292498936, 1.1824676357309465],
+      nl: (
+        <>
+          <h2 className="text-4xl">Locatie {question}</h2>
+          <p>
+            Welkom in “La Roque Gageac”. Dit mooie plaatsje ligt tussen de
+            rivier de Dordogne en een imposante rotswand met daarin een
+            middeleeuws fort.
+          </p>
+          <p>
+            In dit dorpje zijn ook veel bijzondere planten te vinden. Hoe oud is
+            de maker van dit “Paradijs op aarde” geworden?
+          </p>
+        </>
+      ),
+      fr: (
+        <>
+          <p>@todo</p>
+        </>
+      ),
+      answers: ["79", "79 jaar", "79 ans"],
+    },
+    {
+      location: [44.8019342180701, 1.2189664953015382],
+      nl: (
+        <>
+          <h2 className="text-4xl">Locatie {question}</h2>
+          <p>
+            In Domme kan je het beste buiten de stadsmuur parkeren en het stadje
+            te voet betreden. Ga hier op zoek naar twee kippen.
+          </p>
+          <p>
+            Als je door dit geometrisch object richting ons huis kijkt, zie je
+            halverwege een groot bouwwerk boven de bomen uitsteken. Wat is het
+            adres van dit gebouw (huisnummer + straatnaam)?
+          </p>
+        </>
+      ),
+      fr: (
+        <>
+          <p>@todo</p>
+        </>
+      ),
+      answers: ["22 marobert"],
+    },
+    {
+      location: [44.75916320111895, 1.2221376892464353],
+      nl: (
+        <>
+          <h2 className="text-4xl">Locatie {question}</h2>
+          <p>
+            Op deze plek zijn ludieke kunstenaars actief geweest. Wat is er
+            afgebeeld op het werk dat is gesigneerd door de mysterieuze
+            kunstenaar “S”?
+          </p>
+        </>
+      ),
+      fr: (
+        <>
+          <p>@todo</p>
+        </>
+      ),
+      answers: ["hart", "hartje", "cœur", "coeur"],
+    },
+    {
+      location: [44.710327786823726, 1.2247312140463134],
+      nl: (
+        <>
+          <h2 className="text-4xl">Locatie {question}</h2>
+          <p>
+            Hier vind je een verrekijker die je een panoramisch uitzicht geeft
+            over de omgeving. Maar hoeveel stappen moet je hier omhoog zetten om
+            de “Lol” ervan in te zien?
+          </p>
+        </>
+      ),
+      fr: (
+        <>
+          <p>@todo</p>
+        </>
+      ),
+      answers: ["122"],
     },
     {
       location: [44.90247, 1.211192],
       nl: (
         <>
-          <h2 className="text-4xl">Locatie {question}</h2>
-          <p>@todo La Roque Gageac</p>
-          <p>Antwoord: test</p>
+          <h2 className="text-4xl">Gefeliciteerd!</h2>
+          <p>
+            Dat was het goede antwoord en daarmee is de Rally afgelopen.
+            Gefeliciteerd met jullie mooie score!
+          </p>
+
+          <div className="flex justify-center">
+            <div className="rounded-full bg-emerald-900 px-8 py-4 font-mono text-white mb-6 font-bold text-xl">
+              Score: {score}
+            </div>
+          </div>
+
+          <p>
+            Goed gedaan hoor! Laat deze score maar snel aan de spelleiding zien
+            zodat ze kunnen bepalen wie de rally gewonnen heeft.
+          </p>
+
+          <p>
+            Na deze prestatie hebben jullie wel wat lekkers verdiend. We hebben
+            om 17:00 uur bij “Les Vignerons des Côteaux du Céou” gereserveerd
+            voor een wijnproeverij.
+          </p>
+
+          <p>Proost en bedankt voor het meespelen!</p>
         </>
       ),
       fr: (
@@ -289,71 +429,6 @@ export default function Rally() {
           <p>@todo</p>
         </>
       ),
-      answers: ["test"],
-    },
-    {
-      location: [44.90247, 1.211192],
-      nl: (
-        <>
-          <h2 className="text-4xl">Locatie {question}</h2>
-          <p>@todo Domme</p>
-          <p>Antwoord: test</p>
-        </>
-      ),
-      fr: (
-        <>
-          <p>@todo</p>
-        </>
-      ),
-      answers: ["test"],
-    },
-    {
-      location: [44.90247, 1.211192],
-      nl: (
-        <>
-          <h2 className="text-4xl">Locatie {question}</h2>
-          <p>@todo ??</p>
-          <p>Antwoord: test</p>
-        </>
-      ),
-      fr: (
-        <>
-          <p>@todo</p>
-        </>
-      ),
-      answers: ["test"],
-    },
-    {
-      location: [44.90247, 1.211192],
-      nl: (
-        <>
-          <h2 className="text-4xl">Locatie {question}</h2>
-          <p>@todo Tour de Moncalou</p>
-          <p>Antwoord: test</p>
-        </>
-      ),
-      fr: (
-        <>
-          <p>@todo</p>
-        </>
-      ),
-      answers: ["test"],
-    },
-    {
-      location: [44.90247, 1.211192],
-      nl: (
-        <>
-          <h2 className="text-4xl">Locatie {question}</h2>
-          <p>@todo Vin de Domme</p>
-          <p>Antwoord: test</p>
-        </>
-      ),
-      fr: (
-        <>
-          <p>@todo</p>
-        </>
-      ),
-      answers: ["test"],
     },
   ];
 
@@ -421,7 +496,7 @@ export default function Rally() {
             )}
           </div>
 
-          {question == 0 ? (
+          {question == 0 || question == 16 ? (
             <Image
               alt="Hannah & Sjoerd"
               className="w-full"
@@ -438,31 +513,33 @@ export default function Rally() {
           <div className="content rounded-xl bg-white p-10 shadow-xl">
             {language == "nl" ? questions[question].nl : questions[question].fr}
 
-            <form
-              onSubmit={(event) => submit(event)}
-              className="flex flex-col gap-4"
-            >
-              <div
-                className={`
+            {question != 16 && (
+              <form
+                onSubmit={(event) => submit(event)}
+                className="flex flex-col gap-4"
+              >
+                <div
+                  className={`
                 bg-rose-600 text-white p-3 rounded
                 ${error ? "visible" : "hidden"}
               `}
-              >
-                {error}
-              </div>
+                >
+                  {error}
+                </div>
 
-              <input
-                className="border border-gray-300 w-full p-2 rounded focus:ring-0 focus:outline-none focus:border-gray-400"
-                type="text"
-              />
+                <input
+                  className="border border-gray-300 w-full p-2 rounded focus:ring-0 focus:outline-none focus:border-gray-400"
+                  type="text"
+                />
 
-              <button
-                className=" bg-emerald-400 hover:bg-emerald-500 w-full !text-white font-semibold !no-underline inline-flex items-center justify-center px-8 py-3 rounded-full shadow-lg shadow-emerald-500/50"
-                type="submit"
-              >
-                {language == "nl" ? "Verstuur antwoord" : "Envoyer réponse"}
-              </button>
-            </form>
+                <button
+                  className=" bg-emerald-400 hover:bg-emerald-500 w-full !text-white font-semibold !no-underline inline-flex items-center justify-center px-8 py-3 rounded-full shadow-lg shadow-emerald-500/50"
+                  type="submit"
+                >
+                  {language == "nl" ? "Verstuur antwoord" : "Envoyer réponse"}
+                </button>
+              </form>
+            )}
           </div>
 
           <a
