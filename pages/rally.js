@@ -1,12 +1,31 @@
+import { useEffect, useState } from "react";
+
 import Head from "next/head";
 import dynamic from "next/dynamic";
-import { useState } from "react";
 
-export default function Home() {
+export default function Rally() {
   const [question, setQuestion] = useState(0);
   const [language, setLanguage] = useState("nl");
   const [score, setScore] = useState(0);
   const [showError, setShowError] = useState(false);
+
+  // Load state from localStorage on component mount
+  useEffect(() => {
+    const savedQuestion = localStorage.getItem("rallyQuestion");
+    const savedLanguage = localStorage.getItem("rallyLanguage");
+    const savedScore = localStorage.getItem("rallyScore");
+
+    if (savedQuestion) setQuestion(parseInt(savedQuestion));
+    if (savedLanguage) setLanguage(savedLanguage);
+    if (savedScore) setScore(parseInt(savedScore));
+  }, []);
+
+  // Save state to localStorage whenever it changes
+  useEffect(() => {
+    localStorage.setItem("rallyQuestion", question);
+    localStorage.setItem("rallyLanguage", language);
+    localStorage.setItem("rallyScore", score);
+  }, [question, language, score]);
 
   const questions = [
     {
