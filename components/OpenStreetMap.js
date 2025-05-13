@@ -5,11 +5,11 @@ import "leaflet-defaulticon-compatibility";
 import { MapContainer, Marker, TileLayer } from "react-leaflet";
 
 const OpenStreetMap = () => {
-  const location = [44.901692, 1.217597];
+  const location = [44.902470, 1.211192];
   return (
     <MapContainer
       center={location}
-      zoom={14}
+      zoom={15}
       scrollWheelZoom={false}
       className="w-full aspect-square"
     >

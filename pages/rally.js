@@ -6,12 +6,11 @@ export default function Home() {
   const [question, setQuestion] = useState(0);
   const [language, setLanguage] = useState("nl");
   const [score, setScore] = useState(0);
-  const [answer, setAnswer] = useState("");
   const [showError, setShowError] = useState(false);
 
   const questions = [
     {
-      location: [44.58155, 1.12236],
+      location: [44.902989820318965, 1.211435275615816],
       nl: (
         <>
           <p className="!mb-1 font-sans text-base font-bold uppercase tracking-wider text-emerald-400">
@@ -325,15 +324,18 @@ export default function Home() {
   function submit(event) {
     event.preventDefault();
 
-    if (questions[question].answers.includes(answer.toLowerCase())) {
+    const answer = event.target[0].value.toLowerCase();
+
+    if (questions[question].answers.includes(answer)) {
       setScore(score + 10);
       setShowError(false);
-      setAnswer("");
       setQuestion(question + 1);
     } else {
       setScore(score - 1);
       setShowError(true);
     }
+
+    event.target[0].value = "";
   }
 
   return (
@@ -374,7 +376,10 @@ export default function Home() {
           <div className="content rounded-xl bg-white p-10 shadow-xl">
             {language == "nl" ? questions[question].nl : questions[question].fr}
 
-            <div className="flex flex-col gap-4">
+            <form
+              onSubmit={(event) => submit(event)}
+              className="flex flex-col gap-4"
+            >
               <div
                 className={`
                 bg-rose-600 text-white p-3 rounded
@@ -386,22 +391,18 @@ export default function Home() {
                   : "Helaas dat was fout. Dat kost je een punt!"}
               </div>
 
-              {/* @todo hier moet ik toch een form van maken zodat die kaart niet zo knippert als je typt */}
-
               <input
-                className="border border-gray-300 w-full p-2 rounded"
+                className="border border-gray-300 w-full p-2 rounded focus:ring-0 focus:outline-none focus:border-gray-400"
                 type="text"
-                onChange={(e) => setAnswer(e.target.value)}
-                value={answer}
               />
 
               <button
-                className=" bg-emerald-400 hover:bg-emerald-500 !text-white font-semibold !no-underline inline-flex items-center justify-center px-8 py-3 rounded-full shadow-lg shadow-emerald-500/50"
-                onClick={(event) => submit(event)}
+                className=" bg-emerald-400 hover:bg-emerald-500 w-full !text-white font-semibold !no-underline inline-flex items-center justify-center px-8 py-3 rounded-full shadow-lg shadow-emerald-500/50"
+                type="submit"
               >
-                Submit
+                {language == "nl" ? "Verstuur antwoord" : "Envoyer réponse"}
               </button>
-            </div>
+            </form>
           </div>
 
           <a
