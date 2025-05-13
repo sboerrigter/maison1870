@@ -4,8 +4,7 @@ import "leaflet-defaulticon-compatibility";
 
 import { MapContainer, Marker, TileLayer } from "react-leaflet";
 
-const OpenStreetMap = () => {
-  const location = [44.902470, 1.211192];
+const OpenStreetMap = ({ location = [44.90247, 1.211192] }) => {
   return (
     <MapContainer
       center={location}

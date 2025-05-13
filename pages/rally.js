@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 
 import Head from "next/head";
+import Image from "next/image";
 import dynamic from "next/dynamic";
 
 export default function Rally() {
@@ -29,7 +30,7 @@ export default function Rally() {
 
   const questions = [
     {
-      location: [44.902989820318965, 1.211435275615816],
+      location: [44.90247, 1.211192],
       nl: (
         <>
           <p className="!mb-1 font-sans text-base font-bold uppercase tracking-wider text-emerald-400">
@@ -105,6 +106,7 @@ export default function Rally() {
       answers: ["ik snap het", "je comprends"],
     },
     {
+      location: [44.90247, 1.211192],
       nl: (
         <>
           <h2 className="text-4xl">Locatie {question}</h2>
@@ -120,6 +122,7 @@ export default function Rally() {
       answers: ["bricomarche", "bricomarché"],
     },
     {
+      location: [44.892833, 1.211897],
       nl: (
         <>
           <h2 className="text-4xl">Locatie {question}</h2>
@@ -141,6 +144,7 @@ export default function Rally() {
       answers: ["bier", "biere", "bière"],
     },
     {
+      location: [44.887917, 1.219869],
       nl: (
         <>
           <h2 className="text-4xl">Locatie {question}</h2>
@@ -152,6 +156,7 @@ export default function Rally() {
       answers: ["test"],
     },
     {
+      location: [44.901698, 1.217905],
       nl: (
         <>
           <h2 className="text-4xl">Locatie {question}</h2>
@@ -167,6 +172,7 @@ export default function Rally() {
       answers: ["test"],
     },
     {
+      location: [44.933182, 1.252884],
       nl: (
         <>
           <h2 className="text-4xl">Locatie {question}</h2>
@@ -177,6 +183,7 @@ export default function Rally() {
       answers: ["poffertjes"],
     },
     {
+      location: [44.970967, 1.206543],
       nl: (
         <>
           <h2 className="text-4xl">Locatie {question}</h2>
@@ -193,6 +200,7 @@ export default function Rally() {
       answers: ["test"],
     },
     {
+      location: [44.96578813552195, 1.1620073280851817],
       nl: (
         <>
           <h2 className="text-4xl">Locatie {question}</h2>
@@ -204,6 +212,7 @@ export default function Rally() {
       answers: ["test"],
     },
     {
+      location: [44.93544426749727, 1.1421611902007716],
       nl: (
         <>
           <h2 className="text-4xl">Locatie {question}</h2>
@@ -215,6 +224,7 @@ export default function Rally() {
       answers: ["test"],
     },
     {
+      location: [44.90247, 1.211192],
       nl: (
         <>
           <h2 className="text-4xl">Locatie {question}</h2>
@@ -226,6 +236,7 @@ export default function Rally() {
       answers: ["test"],
     },
     {
+      location: [44.90247, 1.211192],
       nl: (
         <>
           <h2 className="text-4xl">Locatie {question}</h2>
@@ -241,6 +252,7 @@ export default function Rally() {
       answers: ["test"],
     },
     {
+      location: [44.90247, 1.211192],
       nl: (
         <>
           <h2 className="text-4xl">Locatie {question}</h2>
@@ -260,6 +272,7 @@ export default function Rally() {
       answers: ["test"],
     },
     {
+      location: [44.90247, 1.211192],
       nl: (
         <>
           <h2 className="text-4xl">Locatie {question}</h2>
@@ -275,6 +288,7 @@ export default function Rally() {
       answers: ["test"],
     },
     {
+      location: [44.90247, 1.211192],
       nl: (
         <>
           <h2 className="text-4xl">Locatie {question}</h2>
@@ -290,6 +304,7 @@ export default function Rally() {
       answers: ["test"],
     },
     {
+      location: [44.90247, 1.211192],
       nl: (
         <>
           <h2 className="text-4xl">Locatie {question}</h2>
@@ -305,6 +320,7 @@ export default function Rally() {
       answers: ["test"],
     },
     {
+      location: [44.90247, 1.211192],
       nl: (
         <>
           <h2 className="text-4xl">Locatie {question}</h2>
@@ -320,6 +336,7 @@ export default function Rally() {
       answers: ["test"],
     },
     {
+      location: [44.90247, 1.211192],
       nl: (
         <>
           <h2 className="text-4xl">Locatie {question}</h2>
@@ -390,7 +407,19 @@ export default function Rally() {
             )}
           </div>
 
-          <OpenStreetMap location={questions[question].location} />
+          {question == 0 ? (
+            <Image
+              alt="Hannah & Sjoerd"
+              className="w-full"
+              priority
+              src="/photos/party/hero.jpg"
+              width={1600}
+              height={1200}
+              sizes="100vw"
+            />
+          ) : (
+            <OpenStreetMap location={questions[question].location} />
+          )}
 
           <div className="content rounded-xl bg-white p-10 shadow-xl">
             {language == "nl" ? questions[question].nl : questions[question].fr}
