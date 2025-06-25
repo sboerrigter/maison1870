@@ -45,13 +45,13 @@ export default function Rally() {
           <p>
             Jullie gaan vandaag een route afleggen langs verschillende punten.
             Op ieder punt moet je een vraag beantwoorden. Als je de vraag goed
-            beantwoord krijg je 5 punten en de locatie voor de volgende vraag.
+            beantwoord krijg je 10 punten en de locatie voor de volgende vraag.
             Maar beantwoord je een vraag fout, dan verlies je een punt.
           </p>
 
           <p>
             Als je er echt niet uitkomt kan je ook een hulplijn inschakelen.
-            Maar, dat kost je wel 10 punten.
+            Maar, dat kost je wel 5 punten.
           </p>
 
           <p>
@@ -72,34 +72,28 @@ export default function Rally() {
           </p>
           <h1 className="text-5xl">Rally culturel</h1>
           <p>
-            Bienvenue au rallye culturel automobile de Hannah et Sjoerd&rdquo; !
-            Et une folle aventure le long de nos lieux préférés dans la région.
+            Bienvenue au rallye culturel automobile de Hannah &amp; Sjoerd ! Une
+            aventure folle à travers nos endroits préférés de la région.
           </p>
-
           <p>
-            Aujourd&apos;hui, vous allez parcourir un itinéraire en passant par
-            plusieurs points. À chaque point, vous devez répondre à une
-            question. Si vous répondez correctement à la question vous
-            obtiendrez 5 points et l&apos;emplacement de la question suivante.
-            Mais si vous répondez incorrectement à une question, vous perdrez un
-            point.
+            Aujourd&apos;hui, vous allez suivre un itinéraire en passant par
+            différents points. À chaque point, vous devrez répondre à une
+            question. Si vous répondez correctement, vous gagnez 10 points et
+            recevez l&apos;emplacement de la prochaine question. Mais si vous
+            vous trompez, vous perdez un point.
           </p>
-
           <p>
-            Si vous n&apos;y arrivez vraiment pas, vous pouvez aussi appeler un
-            service d&apos;assistance téléphonique. Mais cela vous coûtera 10
-            points.
+            Si vous n&apos;y arrivez vraiment pas, vous pouvez utiliser un
+            joker. Mais cela vous coûtera 5 points.
           </p>
-
           <p>
-            L&apos;équipe ayant le plus de points à la fin de la journée
-            remporte la gloire éternelle !
+            L&apos;équipe qui aura le plus de points à la fin de la journée
+            remportera la gloire éternelle !
           </p>
-
           <p>
-            Vous avez compris ? Alors tapez &ldquo;je comprends&rdquo;
-            ci-dessous pour le premier lieu et la première question. pour le
-            premier emplacement et la première question.
+            Vous avez compris ? Tapez alors ci-dessous &ldquo;je
+            comprends&rdquo; pour obtenir le premier lieu et la première
+            question.
           </p>
         </>
       ),
@@ -118,7 +112,17 @@ export default function Rally() {
           </p>
         </>
       ),
-      fr: <p>@todo</p>,
+      fr: (
+        <>
+          <h2 className="text-4xl">Lieu {question}</h2>
+          <p>Rendez-vous à l&apos;emplacement ci-dessus.</p>
+          <p>
+            Nous allons régulièrement au Carrefour Market pour faire des
+            courses. Mais quel magasin dans les environs pensez-vous que nous
+            avons presque aussi souvent visité ces trois dernières années ?
+          </p>
+        </>
+      ),
       answers: ["bricomarche", "bricomarché"],
     },
     {
@@ -140,7 +144,24 @@ export default function Rally() {
           </p>
         </>
       ),
-      fr: <p>@todo</p>,
+      fr: (
+        <>
+          <h2 className="text-4xl">Lieu {question}</h2>
+          <p>
+            À cet endroit, vous trouverez l&apos;une des installations
+            importantes de Sarlat. Une fois par an, une grande fête y est
+            organisée. Qu&apos;est-ce qui y est vendu pour récolter de
+            l&apos;argent ?
+          </p>
+          <p>
+            Indice : La réponse se trouve dans{" "}
+            <a href="https://www.youtube.com/watch?v=kDNANhftmaQ">
+              BonSjoerd épisode 12
+            </a>
+            .
+          </p>
+        </>
+      ),
       answers: [
         "bier",
         "biere",
@@ -156,12 +177,25 @@ export default function Rally() {
       nl: (
         <>
           <h2 className="text-4xl">Locatie {question}</h2>
-          <p>@todo parc du plantier</p>
-          <p>Antwoord: test</p>
+          <p>
+            De Dordogne is bekend vanwege de vele prachtige kastelen. In
+            &ldquo;Parc du Plantier&rdquo; staat het kasteel dat wij het vaakst
+            bezocht hebben. In welk jaar is dit kasteel gebouwd?
+          </p>
         </>
       ),
-      fr: <p>@todo</p>,
-      answers: ["test"],
+      fr: (
+        <>
+          <h2 className="text-4xl">Lieu {question}</h2>
+          <p>
+            La Dordogne est connue pour ses nombreux magnifiques châteaux. Dans
+            le &ldquo;Parc du Plantier&rdquo; se trouve le château que nous
+            avons visité le plus souvent. En quelle année ce château a-t-il été
+            construit ?
+          </p>
+        </>
+      ),
+      answers: ["2023"],
     },
     {
       location: [44.901698, 1.217905],
@@ -173,10 +207,19 @@ export default function Rally() {
             linde bomen die hier staan. Maar er staan nog bomen van een andere
             soort. Hoeveel en welke soort?
           </p>
-          <p>Antwoord: test</p>
         </>
       ),
-      fr: <p>@todo</p>,
+      fr: (
+        <>
+          <h2 className="text-4xl">Lieu {question}</h2>
+          <p>
+            Cet endroit s&apos;appelait autrefois &ldquo;Les Tilleuls&rdquo;, à
+            cause des tilleuls qui s&apos;y trouvent. Mais il y a aussi
+            d&apos;autres arbres d&apos;une autre espèce. Combien et de quelle
+            espèce ?
+          </p>
+        </>
+      ),
       answers: ["24 platanen", "24 platanes", "24 platane"],
     },
     {
@@ -187,7 +230,12 @@ export default function Rally() {
           <p>Welk typisch Nederlandse product wordt hier verkocht?</p>
         </>
       ),
-      fr: <p>@todo</p>,
+      fr: (
+        <>
+          <h2 className="text-4xl">Lieu {question}</h2>
+          <p>Quel produit typiquement néerlandais est vendu ici ?</p>
+        </>
+      ),
       answers: ["poffertjes"],
     },
     {
@@ -204,7 +252,20 @@ export default function Rally() {
           <p>Bereken: B + C * A</p>
         </>
       ),
-      fr: <p>@todo</p>,
+      fr: (
+        <>
+          <h2 className="text-4xl">Lieu {question}</h2>
+          <p>Ici, nous allons faire un peu de calcul !</p>
+          <ul>
+            <li>A = le nombre que vous voyez ici.</li>
+            <li>B = l&apos;année de naissance de Hannah et de Sjoerd.</li>
+            <li>
+              C = le numéro du département où vous vous trouvez actuellement.
+            </li>
+          </ul>
+          <p>Calculez : B + C * A</p>
+        </>
+      ),
       answers: ["6306"],
     },
     {
@@ -219,7 +280,17 @@ export default function Rally() {
           </p>
         </>
       ),
-      fr: <p>@todo</p>,
+      fr: (
+        <>
+          <h2 className="text-4xl">Lieu {question}</h2>
+          <p>
+            Il est temps de se détendre un peu et de jouer à quelques jeux.
+            Lorsque l&apos;horloge aura sonné onze heures et demie, vous
+            recevrez une belle énigme de la part de l&apos;organisation. Quelle
+            est la solution ?
+          </p>
+        </>
+      ),
       answers: ["la bonne vie en france"],
     },
     {
@@ -241,7 +312,22 @@ export default function Rally() {
           </p>
         </>
       ),
-      fr: <p>@todo</p>,
+      fr: (
+        <>
+          <h2 className="text-4xl">Lieu {question}</h2>
+          <p>
+            Beaucoup de Néerlandais pensent que les canards de foie gras sont
+            malheureux. Mais regardez ici la belle vie que ces animaux ont.
+            Alors installez-vous confortablement et profitez sans culpabilité
+            d&apos;un délicieux repas avec des spécialités locales. Bon appétit
+            !
+          </p>
+          <p>
+            L&apos;ingrédient principal du dessert est aussi une spécialité
+            locale. De quoi s&apos;agit-il ?
+          </p>
+        </>
+      ),
       answers: ["walnoot", "walnoten", "noix", "des noix"],
     },
     {
@@ -259,7 +345,19 @@ export default function Rally() {
           </p>
         </>
       ),
-      fr: <p>@todo</p>,
+      fr: (
+        <>
+          <h2 className="text-4xl">Lieu {question}</h2>
+          <p>
+            C&apos;est aussi un endroit que nous avons souvent visité ces
+            dernières années. Heureusement, c&apos;est gratuit ici.
+          </p>
+          <p>
+            Qu&apos;est-ce qui n&apos;est pas accepté ici, en plus des
+            médicaments, des pneus et des déchets ménagers ?
+          </p>
+        </>
+      ),
       answers: [
         "radioactief afval",
         "radioactive waste",
@@ -284,7 +382,15 @@ export default function Rally() {
       ),
       fr: (
         <>
-          <p>@todo</p>
+          <h2 className="text-4xl">Lieu {question}</h2>
+          <p>
+            Ici, vous trouverez une grande version d&apos;un appareil que Hannah
+            aime utiliser pour choyer le reste de notre famille.
+          </p>
+          <p>
+            Elle a également contribué aux traductions pour un célèbre fabricant
+            de ce type de machines. Quel est le nom de ce fabricant ?
+          </p>
         </>
       ),
       answers: ["kitchenaid"],
@@ -305,7 +411,15 @@ export default function Rally() {
       ),
       fr: (
         <>
-          <p>@todo</p>
+          <h2 className="text-4xl">Lieu {question}</h2>
+          <p>
+            Ici, vous avez une vue sur la magnifique vallée de la Dordogne avec
+            ses nombreux châteaux. Depuis ce point, vous pouvez en voir cinq :
+            Château de Beynac, Château de Frayrac, Château de
+            Castelnaud-la-Chapelle, Château de Lacoste et Château de
+            Marqueyssac.
+          </p>
+          <p>Mais combien de triangles rouges voyez-vous ici ?</p>
         </>
       ),
       answers: ["85"],
@@ -328,7 +442,17 @@ export default function Rally() {
       ),
       fr: (
         <>
-          <p>@todo</p>
+          <h2 className="text-4xl">Lieu {question}</h2>
+          <p>
+            Bienvenue à “La Roque Gageac”. Ce beau village est situé entre la
+            rivière Dordogne et une imposante falaise avec une forteresse
+            médiévale.
+          </p>
+          <p>
+            Dans ce village, on trouve aussi de nombreuses plantes
+            particulières. Quel âge avait le créateur de ce “Paradis sur terre”
+            ?
+          </p>
         </>
       ),
       answers: ["79", "79 jaar", "79 ans"],
@@ -351,7 +475,17 @@ export default function Rally() {
       ),
       fr: (
         <>
-          <p>@todo</p>
+          <h2 className="text-4xl">Lieu {question}</h2>
+          <p>
+            À Domme, il est préférable de se garer à l&apos;extérieur des
+            remparts et d&apos;entrer dans la ville à pied. Cherchez ici deux
+            poules.
+          </p>
+          <p>
+            Si vous regardez vers notre maison à travers cet objet géométrique,
+            vous verrez à mi-chemin un grand bâtiment dépasser des arbres.
+            Quelle est l&apos;adresse de ce bâtiment (numéro + nom de la rue) ?
+          </p>
         </>
       ),
       answers: ["22 marobert"],
@@ -370,7 +504,11 @@ export default function Rally() {
       ),
       fr: (
         <>
-          <p>@todo</p>
+          <h2 className="text-4xl">Lieu {question}</h2>
+          <p>
+            À cet endroit, des artistes ludiques ont été actifs. Que représente
+            l&apos;œuvre signée par l&apos;énigmatique artiste “S” ?
+          </p>
         </>
       ),
       answers: ["hart", "hartje", "cœur", "coeur"],
@@ -389,7 +527,12 @@ export default function Rally() {
       ),
       fr: (
         <>
-          <p>@todo</p>
+          <h2 className="text-4xl">Lieu {question}</h2>
+          <p>
+            Ici, vous trouverez une longue-vue qui vous offre une vue
+            panoramique sur les environs. Mais combien de marches devez-vous
+            monter ici pour voir le “fun” ?
+          </p>
         </>
       ),
       answers: ["122"],
@@ -426,7 +569,26 @@ export default function Rally() {
       ),
       fr: (
         <>
-          <p>@todo</p>
+          <h2 className="text-4xl">Félicitations !</h2>
+          <p>
+            C&apos;était la bonne réponse et la Rallye est donc terminée.
+            Félicitations pour votre beau score !
+          </p>
+          <div className="flex justify-center">
+            <div className="rounded-full bg-emerald-900 px-8 py-4 font-mono text-white mb-6 font-bold text-xl">
+              Score : {score}
+            </div>
+          </div>
+          <p>
+            Bien joué ! Montrez vite ce score à l&apos;organisation pour
+            qu&apos;ils puissent déterminer qui a gagné le rallye.
+          </p>
+          <p>
+            Après cette performance, vous avez bien mérité une petite
+            gourmandise. Nous avons réservé une dégustation de vin à 17h00 chez
+            “Les Vignerons des Côteaux du Céou”.
+          </p>
+          <p>Santé et merci d&apos;avoir participé !</p>
         </>
       ),
     },
@@ -439,7 +601,15 @@ export default function Rally() {
   function submit(event) {
     event.preventDefault();
 
-    const answer = event.target[0].value.toLowerCase();
+    let answer = event.target[0].value;
+    answer = answer.toLowercase();
+    answer = answer.replace(" ", "");
+
+    let goodanswers = questions[question].answers.map((answer) => {
+      answer = answer.toLowercase();
+      answer = answer.replace(" ", "");
+      return answer;
+    });
 
     if (answer == "") {
       setError(
@@ -447,7 +617,7 @@ export default function Rally() {
           ? "Je moet natuurlijk wel iets invullen..."
           : "Bien sûr, vous devez remplir quelque chose..."
       );
-    } else if (questions[question].answers.includes(answer)) {
+    } else if (goodanswers.includes(answer)) {
       setScore(score + 10);
       setError(false);
       setQuestion(question + 1);
