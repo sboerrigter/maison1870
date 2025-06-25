@@ -36,7 +36,7 @@ export default function Rally() {
           <p className="!mb-1 font-sans text-base font-bold uppercase tracking-wider text-emerald-400">
             Hannah &amp; Sjoerd&apos;s
           </p>
-          <h1 className="text-5xl">Culture rally</h1>
+          <h1 className="text-5xl">Culturele rally</h1>
           <p>
             Welkom bij de &ldquo;Hannah &amp; Sjoerd&rdquo; culturele autorally!
             En doldwaas avontuur langs onze favoriete plekken in de buurt.
@@ -70,16 +70,16 @@ export default function Rally() {
           <p className="!mb-1 font-sans text-base font-bold uppercase tracking-wider text-emerald-400">
             Hannah &amp; Sjoerd&apos;s
           </p>
-          <h1 className="text-5xl">Rally culturel</h1>
+          <h1 className="text-5xl">Rallye culturel</h1>
           <p>
-            Bienvenue au rallye culturel automobile de Hannah &amp; Sjoerd ! Une
-            aventure folle à travers nos endroits préférés de la région.
+            Bienvenue au rallye culturel de Hannah &amp; Sjoerd ! Une aventure
+            folle à travers nos endroits préférés de la région.
           </p>
           <p>
             Aujourd&apos;hui, vous allez suivre un itinéraire en passant par
-            différents points. À chaque point, vous devrez répondre à une
+            différents lieux. À chaque lieu, vous devrez répondre à une
             question. Si vous répondez correctement, vous gagnez 10 points et
-            recevez l&apos;emplacement de la prochaine question. Mais si vous
+            recevez l&apos;emplacement de la question suivante. Mais si vous
             vous trompez, vous perdez un point.
           </p>
           <p>
@@ -91,7 +91,7 @@ export default function Rally() {
             remportera la gloire éternelle !
           </p>
           <p>
-            Vous avez compris ? Tapez alors ci-dessous &ldquo;je
+            Vous avez compris ? Entrez alors ci-dessous &ldquo;je
             comprends&rdquo; pour obtenir le premier lieu et la première
             question.
           </p>
@@ -119,7 +119,7 @@ export default function Rally() {
           <p>
             Nous allons régulièrement au Carrefour Market pour faire des
             courses. Mais quel magasin dans les environs pensez-vous que nous
-            avons presque aussi souvent visité ces trois dernières années ?
+            avons visité presque aussi souvent ces trois dernières années ?
           </p>
         </>
       ),
@@ -148,10 +148,9 @@ export default function Rally() {
         <>
           <h2 className="text-4xl">Lieu {question}</h2>
           <p>
-            À cet endroit, vous trouverez l&apos;une des installations
-            importantes de Sarlat. Une fois par an, une grande fête y est
-            organisée. Qu&apos;est-ce qui y est vendu pour récolter de
-            l&apos;argent ?
+            À cet endroit, vous trouverez un des bâtiments les plus importants
+            de Sarlat. Une fois par an, une grande fête y est organisée.
+            Qu&apos;est-ce qui y est vendu pour récolter de l&apos;argent ?
           </p>
           <p>
             Indice : La réponse se trouve dans{" "}
@@ -163,13 +162,16 @@ export default function Rally() {
         </>
       ),
       answers: [
+        "alcohol",
+        "alcool",
         "bier",
         "biere",
         "bière",
-        "drank",
-        "drinken",
+        "boisson",
         "boissons",
         "buvait",
+        "drank",
+        "drinken",
       ],
     },
     {
@@ -214,13 +216,12 @@ export default function Rally() {
           <h2 className="text-4xl">Lieu {question}</h2>
           <p>
             Cet endroit s&apos;appelait autrefois &ldquo;Les Tilleuls&rdquo;, à
-            cause des tilleuls qui s&apos;y trouvent. Mais il y a aussi
-            d&apos;autres arbres d&apos;une autre espèce. Combien et de quelle
-            espèce ?
+            cause des tilleuls qui s&apos;y trouvent. Il y a également beaucoup
+            d&apos;arbres d&apos;une autre espèce. Combien et de quelle espèce ?
           </p>
         </>
       ),
-      answers: ["24 platanen", "24 platanes", "24 platane"],
+      answers: ["24 platanes", "24 platane", "24 platanen"],
     },
     {
       location: [44.933182, 1.252884],
@@ -236,7 +237,7 @@ export default function Rally() {
           <p>Quel produit typiquement néerlandais est vendu ici ?</p>
         </>
       ),
-      answers: ["poffertjes"],
+      answers: ["poffertjes", "des poffertjes"],
     },
     {
       location: [44.970967, 1.206543],
@@ -286,8 +287,8 @@ export default function Rally() {
           <p>
             Il est temps de se détendre un peu et de jouer à quelques jeux.
             Lorsque l&apos;horloge aura sonné onze heures et demie, vous
-            recevrez une belle énigme de la part de l&apos;organisation. Quelle
-            est la solution ?
+            recevrez une énigme de la part de l&apos;organisation. Quelle est la
+            solution ?
           </p>
         </>
       ),
@@ -300,7 +301,7 @@ export default function Rally() {
           <h2 className="text-4xl">Locatie {question}</h2>
 
           <p>
-            Veel Nederlands denken dat Foie Gras eenden zielig zijn. Maar kijk
+            Veel Nederlanders denken dat Foie Gras eenden zielig zijn. Maar kijk
             hier eens wat een prachtig leven deze dieren hier hebben. Dus ga
             lekker zitten en geniet zonder schuldgevoel van een heerlijke
             maaltijd met lokale specialiteiten. Bon appétit!
@@ -316,9 +317,9 @@ export default function Rally() {
         <>
           <h2 className="text-4xl">Lieu {question}</h2>
           <p>
-            Beaucoup de Néerlandais pensent que les canards de foie gras sont
-            malheureux. Mais regardez ici la belle vie que ces animaux ont.
-            Alors installez-vous confortablement et profitez sans culpabilité
+            Beaucoup de Néerlandais pensent que les canards à foie gras sont
+            malheureux. Mais regardez la belle vie que ces animaux ont ici !
+            Alors, installez-vous confortablement et profitez sans culpabilité
             d&apos;un délicieux repas avec des spécialités locales. Bon appétit
             !
           </p>
@@ -353,8 +354,8 @@ export default function Rally() {
             dernières années. Heureusement, c&apos;est gratuit ici.
           </p>
           <p>
-            Qu&apos;est-ce qui n&apos;est pas accepté ici, en plus des
-            médicaments, des pneus et des déchets ménagers ?
+            Qu&apos;est-ce qui n&apos;est pas accepté, en plus des médicaments,
+            des pneus et des déchets ménagers ?
           </p>
         </>
       ),
@@ -371,7 +372,7 @@ export default function Rally() {
         <>
           <h2 className="text-4xl">Locatie {question}</h2>
           <p>
-            Je vind hier een grote versie van een apparaat dat Hannah graag
+            Je vindt hier een grote versie van een apparaat dat Hannah graag
             gebruikt om de rest van ons gezin te verwennen.
           </p>
           <p>
@@ -384,7 +385,7 @@ export default function Rally() {
         <>
           <h2 className="text-4xl">Lieu {question}</h2>
           <p>
-            Ici, vous trouverez une grande version d&apos;un appareil que Hannah
+            Ici, vous trouverez une version géante d&apos;un appareil que Hannah
             aime utiliser pour choyer le reste de notre famille.
           </p>
           <p>
@@ -413,13 +414,13 @@ export default function Rally() {
         <>
           <h2 className="text-4xl">Lieu {question}</h2>
           <p>
-            Ici, vous avez une vue sur la magnifique vallée de la Dordogne avec
-            ses nombreux châteaux. Depuis ce point, vous pouvez en voir cinq :
+            Ici, vous avez vue sur la magnifique vallée de la Dordogne avec ses
+            nombreux châteaux. Depuis ce point, vous pouvez en voir cinq :
             Château de Beynac, Château de Frayrac, Château de
             Castelnaud-la-Chapelle, Château de Lacoste et Château de
             Marqueyssac.
           </p>
-          <p>Mais combien de triangles rouges voyez-vous ici ?</p>
+          <p>Mais combien de triangles rouges voyez-vous ici ?</p>
         </>
       ),
       answers: ["85"],
@@ -451,7 +452,7 @@ export default function Rally() {
           <p>
             Dans ce village, on trouve aussi de nombreuses plantes
             particulières. Quel âge avait le créateur de ce “Paradis sur terre”
-            ?
+            à sa mort ?
           </p>
         </>
       ),
@@ -531,7 +532,7 @@ export default function Rally() {
           <p>
             Ici, vous trouverez une longue-vue qui vous offre une vue
             panoramique sur les environs. Mais combien de marches devez-vous
-            monter ici pour voir le “fun” ?
+            monter pour voir le “Lol” ?
           </p>
         </>
       ),
@@ -571,7 +572,7 @@ export default function Rally() {
         <>
           <h2 className="text-4xl">Félicitations !</h2>
           <p>
-            C&apos;était la bonne réponse et la Rallye est donc terminée.
+            C&apos;était la bonne réponse et le Rally est maintenant terminé.
             Félicitations pour votre beau score !
           </p>
           <div className="flex justify-center">
@@ -584,9 +585,9 @@ export default function Rally() {
             qu&apos;ils puissent déterminer qui a gagné le rallye.
           </p>
           <p>
-            Après cette performance, vous avez bien mérité une petite
-            gourmandise. Nous avons réservé une dégustation de vin à 17h00 chez
-            “Les Vignerons des Côteaux du Céou”.
+            Après cette performance, vous avez bien mérité une petite gâterie.
+            Nous avons réservé une dégustation de vin à 17h00 chez “Les
+            Vignerons des Côteaux du Céou”.
           </p>
           <p>Santé et merci d&apos;avoir participé !</p>
         </>
@@ -616,7 +617,7 @@ export default function Rally() {
       setError(
         language == "nl"
           ? "Je moet natuurlijk wel iets invullen..."
-          : "Bien sûr, vous devez remplir quelque chose..."
+          : "Tu rigoles, il faut quand même remplir quelque chose..."
       );
     } else if (goodanswers.includes(answer)) {
       setScore(score + 10);
@@ -627,7 +628,7 @@ export default function Rally() {
       setError(
         language == "nl"
           ? "Helaas, dat is fout. Dat kost jullie een punt!"
-          : "Malheureusement, c'était une erreur. Cela vous coûtera un point !"
+          : "Malheureusement, c'était faux. Cela vous coûtera un point !"
       );
     }
 
@@ -720,7 +721,7 @@ export default function Rally() {
           >
             {language == "nl"
               ? "Hulplijn inschakelen (- 5 punten)"
-              : "Service d&apos;assistance (- 5 points)"}
+              : "Service d'assistance (- 5 points)"}
           </a>
         </div>
       </div>
