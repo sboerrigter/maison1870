@@ -602,11 +602,12 @@ export default function Rally() {
     event.preventDefault();
 
     let answer = event.target[0].value;
-    answer = answer.toLowercase();
+
+    answer = answer.toLowerCase();
     answer = answer.replace(" ", "");
 
     let goodanswers = questions[question].answers.map((answer) => {
-      answer = answer.toLowercase();
+      answer = answer.toLowerCase();
       answer = answer.replace(" ", "");
       return answer;
     });
