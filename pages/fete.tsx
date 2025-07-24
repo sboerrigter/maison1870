@@ -276,15 +276,9 @@ export default function Home() {
             </p>
 
             <p>
-              Nous n&apos;avons pas beaucoup de places de parking. Nous
-              demanderons donc à tout le monde de se garer ailleurs, par exemple
-              sur le parking du{" "}
-              <a href="https://www.google.com/maps/place/Carrefour+Market+Sarlat-La-Caneda/@44.902465,1.2071664,17z/data=!4m7!3m6!1s0x12ab561f1a2d36e7:0xb8d1b6bc10057de8!8m2!3d44.902465!4d1.21193!15sChBDYXJyZWZvdXIgTWFya2V0IgOIAQFaEiIQY2FycmVmb3VyIG1hcmtldJIBC3N1cGVybWFya2V04AEA!16s%2Fg%2F1tnxz3ck?entry=tts&g_ep=EgoyMDI0MDkwNC4wKgBIAVAD">
-                Carrefour Market
-              </a>
-              . A partir de là il vous faudra 15 minutes à pied pour rejoindre
-              notre maison. Les chauffeurs pourrons bien sûr déposer du monde
-              avant de partir se garer.
+              Vous pouvez vous garer sur la pelouse chez nos voisins. À votre
+              arrivée, tournez immédiatement à gauche, passez devant la maison
+              de nos voisins. Vous pouvez vous garer dans la zone délimitée.
             </p>
           </div>
           <Map className="max-w-[600px] lg:w-1/2" />
