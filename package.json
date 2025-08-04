@@ -30,5 +30,8 @@
     "start": "next dev",
     "build": "next build",
     "lint": "next lint"
+  },
+  "engines": {
+    "node": "22.x"
   }
 }
